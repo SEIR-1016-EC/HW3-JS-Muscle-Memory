@@ -14,13 +14,17 @@
 
 
 // Task 2 - Practice JS Basics
-// 1 - 
+// 1 -  
+    //10 and 10
 
 // 2 - 
+    //false and true
 
 // 3 - 
+    //4, "C", and "c!""
 
 // 4 - 
+    //p and 18
 
 // 5 - 
 
