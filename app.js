@@ -2,35 +2,99 @@
 
 // List 3 expressions that surprised you or gave unexpected results, why?
 
-// List 2 exprsssions you felt comfortable interpreting at a glance.
+2 + 'pizza' // I thought it would throw an error because 2 is not a string
+5 === 5.0 // With strict equality I thought it might be false, but I realize those numbers are identical
+'san francisco'[2 * 3] // forgot about zero indexing for a moment
+
+
+// List 2 expressions you felt comfortable interpreting at a glance.
+
+101 % 10
+true && false
 
 // List 1 expression you are still 'shaky' on, why?
-
-
-
+'engineering'.indexOf('neer') // I assume that it returns where this starts in the index, but why not a range?
 
 
 // Task 2 - Practice JS Basics
 // 1 - 
-
+// let idx = 'abcde'.indexOf('D')
+// idx = idx + 11
+// idx * 2
+//console.log(idx)
 // 2 - 
-
+// let num = 33
+// let isEven = num % 2 === 0
+// console.log(isEven)
+// console.log(!isEven)
 // 3 - 
-
+// let str1 = 'marker'
+// let num = 'whiteboard'.length - str1.length
+// console.log(num)
+// let str2 = 'bootcamp'
+// console.log(str2[num].toUpperCase())
+// let char = str2[num].toLowerCase()
+// console.log(char + '!')
 // 4 - 
-
+// let sentence = 'welcome to bootcamp prep'
+// let lastChar = sentence[sentence.length -1]
+// console.log(lastChar)
+// console.log(sentence.indexOf(lastChar)) // Tricky, but I noticed it would return the first 'p' in the string
 // 5 - 
-
+// let age = 50
+// if (age > 100) {
+//     console.log('looking good for your age')
+// } else {
+//     console.log('lol not even a century yet')
+// }
 // 6 - 
-
+// let str = 'please sir, I want some more'
+// if(str.length > 10) {
+//     console.log('long string')
+// } else {
+//     console.log('short string')
+// }
+// if (str[0] === 'p') {
+//     console.log('starts with p')
+// }
 // 7 - 
-
+// let num = 333
+// if (num % 3 === 0) {
+//     console.log('divisible by 3')
+// } else if (num % 5 === 0) {
+//     console.log('divisible by 5')
+// }
 // 8 - 
-
+// let num = 300
+// if (num % 3 === 0){
+//     console.log('divisible by 3')
+// }
+// if (num % 5 === 0) {
+//     console.log('divisible by 5')
+// }
 // 9 -
+// let str = 'General AssemblY'
+// if (str[0] === str[0].toUpperCase()) {
+//     console.log('starts with a capital!')
+// }
+// if (str[str.length - 1] === str[str.length - 1].toUpperCase()){
+//     console.log('ends with a capital!')
+// }
 
 // 10 - 
-
+// let num = 43
+// if (num > 0) {
+//     console.log('positive')
+// } else if (num < 0){
+//     console.log('negative')
+// } else {
+//     console.log(0)
+// }
+// if (num % 2 === 0){
+//     console.log('even')
+// } else {
+//     console.log('odd')
+// }
 
 //// Task 3 - Conditionals Practice 
 // 1 - 
