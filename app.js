@@ -16,29 +16,31 @@
 // 6 + 6 !== 12 -> false
 // 2 > 1 || false
 // 'true' === true
-// 10 % 2 === 0
-// 21 % 2 === 0
-// 21 % 2 !== 0
-// 21 % 2 === 1
-// 12 % 3 === 0
-// 9 % 3 === 0
-// 14 % 3 === 0
-// 'new york'[0]
-// 'new york'[1]
-// 'san francisco'[2 * 3]
-// 'engineering'[3].toUpperCase()
-// 'engineering'.indexOf('G')
-// 'engineering'.indexOf('neer')
-// 'engineering'.indexOf('r') > -1
-// 'science'.indexOf('x') === -1
+// 10 % 2 === 0 -> true
+// 21 % 2 === 0 -> false
+// 21 % 2 !== 0 -> false
+// 21 % 2 === 1 -> true
+// 12 % 3 === 0 -> true
+// 9 % 3 === 0 -> true
+// 14 % 3 === 0 -> false
+// 'new york'[0] -> 'n'
+// 'new york'[1] -> 'e'
+// 'san francisco'[2 * 3] -> 'a'
+// 'engineering'[3].toUpperCase() -> 'I'
+// 'engineering'.indexOf('G') -> -1
+// 'engineering'.indexOf('neer') -> 4
+// 'engineering'.indexOf('r') > -1 -> true
+// 'science'.indexOf('x') === -1 -> true
 
 // List 3 expressions that surprised you or gave unexpected results, why?
 //2 + 'pizza' surpised me because I figured it would have been undefined, my thought process was you cant add a string a number together
-// 6 + 6 !== 12 this one surprised me 
+// 6 + 6 !== 12 this one surprised me because 6+6 = 12 im still kind of confused on it
+// 'engineering'.indexOf('G') -> -1 i figured this one would output [2,10]
 // List 2 exprsssions you felt comfortable interpreting at a glance.
-
+// (2 + -7) * 3 -> 15
+// 101 % 10 -> 1
 // List 1 expression you are still 'shaky' on, why?
-
+//science'.indexOf('x') === -1 -> true i dont undsertand how this equates to true
 
 
 
