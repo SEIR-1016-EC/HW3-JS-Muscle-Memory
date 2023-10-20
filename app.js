@@ -47,25 +47,29 @@
 
 
 // Task 2 - Practice JS Basics
-// 1 - 
+// 1 - Prediction: 10, 10
+//     Results- 
 
-// 2 - 
+// 2 - Prediction: false, true
+//     Results- 
 
-// 3 - 
+// 3 - Prediction: 4, bootCamp, c!
+//     Results- 
 
-// 4 - 
+// 4 - Prediction: p, 23
+//     Results- 
 
-// 5 - 
+// 5 - Prediction: 
 
-// 6 - 
+// 6 - Prediction: 
 
-// 7 - 
+// 7 - Prediction: 
 
-// 8 - 
+// 8 - Prediction: 
 
-// 9 -
+// 9 - Prediction: 
 
-// 10 - 
+// 10 - Prediction:  
 
 
 //// Task 3 - Conditionals Practice 
