@@ -48,16 +48,19 @@
 
 // Task 2 - Practice JS Basics
 // 1 - Prediction: 10, 10
-//     Results- 
+//     Results- 10, 10
 
 // 2 - Prediction: false, true
-//     Results- 
+//     Results- false, true
 
-// 3 - Prediction: 4, bootCamp, c!
-//     Results- 
+// 3 - Prediction: 4, bootCamp, c! *****
+//     Results- 4, C, c!
+// Was incorrect because I misread the code and thought it would print out the entire string, not just the uppercased letter.
 
 // 4 - Prediction: p, 23
-//     Results- 
+//     Results- p, 18 *****
+// Was incorrect because I thought it would find the index of that last char and did not realize it would find the index of the first instance of the last char.
+
 
 // 5 - Prediction: 
 
