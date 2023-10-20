@@ -38,59 +38,129 @@ console.log(isEven); // false
 console.log(!isEven); // true
 
 // 3
-let str1 = 'marker';
-let num = 'whiteboard'.length - str1.length;
-console.log(num); // ?
-let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // 
-let char = str2[num].toLowerCase(); // ?
-console.log(char + '!'); // ?
+let str1 = "marker";
+let num1 = "whiteboard".length - str1.length;
+console.log(num1); // 4
+let str2 = "bootcamp";
+console.log(str2[num1].toUpperCase()); // C
+let char = str2[num1].toLowerCase(); // c
+console.log(char + "!"); // c!
 
-// 4 -
-
-// 5 -
-
-// 6 -
-
-// 7 -
-
-// 8 -
-
-// 9 -
-
-// 10 -
+// 4
+let sentence = "welcome to bootcamp prep";
+let lastChar = sentence[sentence.length - 1];
+console.log(lastChar); // p
+console.log(sentence.indexOf(lastChar)); // 18
 
 //// Task 3 - Conditionals Practice
-// 1 -
+// 1
+let age = 30;
+if (age > 30) {
+  console.log("older than 30");
+} else {
+  console.log("younger than 30");
+}
 
-// 2 -
+// 2
+let str = "pizza";
+if (str.length > 10) {
+  console.log("long string");
+} else {
+  console.log("short string");
+}
+if (str[0] === "p") {
+  console.log("starts with p");
+}
 
-// 3 -
+// 3
+let num2 = 15;
+if (num2 % 3 === 0) {
+  console.log("divisible by 3");
+} else if (num2 % 5 === 0) {
+  console.log("divisible by 5");
+}
 
-// 4 -
+// 4
+if (num2 % 3 === 0) {
+  console.log("divisible by 3");
+}
+if (num2 % 5 === 0) {
+  console.log("divisible by 5");
+}
 
-// 5 -
+// 5
+let str3 = "General Assembly";
+if (str3[0] === str3[0].toUpperCase()) {
+  console.log("starts with a capital!");
+}
+if (str3[str3.length - 1] === str3[str3.length - 1].toUpperCase()) {
+  console.log("ends with a capital!");
+}
 
-// 6 -
-
-// 7 -
-
-// 8 -
-
-// 9 -
-
-// 10 -
+// 6
+let num3 = 0;
+if (num3 > 0) {
+  console.log("positive");
+} else if (num3 < 0) {
+  console.log("negative");
+} else {
+  console.log(0);
+}
+if (num3 % 2 === 0) {
+  console.log("even");
+} else {
+  console.log("odd");
+}
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 -
+let num4 = 11;
+if (num4 > 5) {
+  console.log("if");
+} else if (num4 > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 
 // 2 -
+let num4 = 11;
+if (num4 > 5) {
+  console.log("if");
+} else if (num4 > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 
 // 3 -
-
+let num4 = 11;
+if (num4 > 5) {
+  console.log("if");
+} else if (num4 > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 // 4 -
+let num4 = 11;
+if (num4 > 5) {
+  console.log("if");
+} else if (num4 > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 
 // 5 -
+let num4 = 11;
+if (num4 > 5) {
+  console.log("if");
+} else if (num4 > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 
 // 6 -
 
