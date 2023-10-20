@@ -318,5 +318,3 @@ function evenCaps(sentence) {
   }
   return newSentence;
 }
-
-console.log(evenCaps('I am doing well'))
