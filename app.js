@@ -8,19 +8,25 @@ let f = (true && !(false || false)) // **TRUE (true and not true (false) or not 
 let g = (!true && !(false || false)) //False (not true and not false or not false) --> False and True or False
 let h = ('cat' + 'dog') //catdog
 let i = (2 + 'pizza') //**2pizza (number 2 and the string pizza)
-let j = (2.5 * 'fish') //NaN
-let k = (5 >= 11) //false
-let l = (5 === 5.0) //true
-let m = (7 !== 7.1) //true
-let n = (5 + 5 > 8) //true (10 > 8)
-let o = (6 + 6 !== 12) //false (12 = 12)
-let p = (2 > 1 || false) //true 2 is greater than 1 or false
+let j = (2.5 * 'fish') // NaN
+let k = (5 >= 11) // false
+let l = (5 === 5.0) // true
+let m = (7 !== 7.1) // true
+let n = (5 + 5 > 8) // true (10 > 8)
+let o = (6 + 6 !== 12) // false (12 = 12)
+let p = (2 > 1 || false) // true 2 is greater than 1 or false
 let q = ('true' === true) //**FALSE 'true' does not strictly equal/compare to another valid operator
 let r = (10 % 2 === 0) //***TRUE % is calculating the remainder of 10 divided by 2, which is 0... 0 = 0
-let s = (21 % 2 === 0) //False checking for the remainder, 21/2 has a remainder, therfore 1 does not  = 0
-let t = (21 % 2 !== 0) //true the remainder of 21/2 does not equal 0
-let u = (21 % 2 === 1) //true there is a remainder
-console.log(u)
+let s = (21 % 2 === 0) // False checking for the remainder, 21/2 has a remainder, therfore 1 does not  = 0
+let t = (21 % 2 !== 0) // true the remainder of 21/2 does not equal 0
+let u = (21 % 2 === 1) // true there is a remainder
+let v = (12 % 3 === 0) // true no remainder
+let w = (9 % 3 === 0) // true no remainder
+let x = (14 % 3 === 0) // false remainder 1 does not equal 0
+let y = ('new york'[0]) // 'n' or the first position in the array "new york"
+let z = ('new york'[1]) // 'e' or the second position in the array "new york"
+console.log(z)
+
 // List 3 expressions that surprised you or gave unexpected results, why?
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
