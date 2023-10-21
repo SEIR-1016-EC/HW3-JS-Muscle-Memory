@@ -1,23 +1,46 @@
 // Task 1 - Notes for JS Evaluation Predictions
 
 // List 3 expressions that surprised you or gave unexpected results, why?
+// 1. 2 + 'pizza' -> I was surprised to see when combining a number and a string, the result returned a combined string ('2pizza'). Similarly, I was surprised to see that when mulitplying a number by a string, it returned NaN.
+// 2. 5 === 5.0 -> It makes sense now that I've seen it, but I was surprised because I thought === only was truthy if the values were identical, I thought the .0 (although not adding any mathematical value), may have caused it to return false
+// 3. 'new york'[1] -> I had never seen an instance before where you determine the index of a string - but after testing it makes sense that the result is the letter which corresponds to the index value.
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
+// 1. 21 % 2 === 1 -> I am comfortable with % expressions, which determine the remainder, and using comparison operators to determine if the result is truthy or falsey when compared to a number
+// 2. !true && !(false || false) -> After reviewing the Js control flow lesson, I now feel more comfortable with operators and comparing two values for their truthy or falsiness. In this case it's using an && operator, and since the first value is not true (false), it stops immediately and returns false.
 
 // List 1 expression you are still 'shaky' on, why?
-
-
-
+// 1. 'engineering'.indexOf('G') -> I expected this result to be undefined, because the exact string 'G' does not exist, but it returned -1. I am under the impression when it comes to index values, -1 is the equivalent of undefined?
 
 
 // Task 2 - Practice JS Basics
-// 1 - 
+// 1 - My predictions before running code: 10; 20
+let idx = 'abcde'.indexOf('D');
+idx = idx + 11;
+console.log(idx);
+idx * 2;
+console.log(idx); // -> I predicted 20, but realized now that even though in line 21 we mulitplied idx by 2, we never redefined idx's value with a let idx =, so the console still returns 10 on this line
 
-// 2 - 
+// 2 - My predictions before running code: false; true
+let num = 33;
+let isEven = num % 2 === 0;
+console.log(isEven);
+console.log(!isEven);
 
-// 3 - 
+// 3 - My predictions before running code: 4; C; c; c!
+let str1 = 'marker';
+let num1 = 'whiteboard'.length - str1.length; // -> changed num to num1 to avoid conflict with initialization of num in step 2 above
+console.log(num1);
+let str2 = 'bootcamp';
+console.log(str2[num1].toUpperCase());
+let char = str2[num1].toLowerCase(); // -> realized that while this value is c, it didn't log anything to the console because we didn't console.log this line
+console.log(char + '!');
 
-// 4 - 
+// 4 - My predictions before running code: 'p', 23
+let sentence = 'welcome to bootcamp prep';
+let lastChar = sentence[sentence.length - 1];
+console.log(lastChar);
+console.log(sentence.indexOf(lastChar)); // -> returned 18, which I believe is because p shows up first at index 18 before being the final character at 23 - so it returns the first instance of the character? Interesting!
 
 // 5 - 
 
