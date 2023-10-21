@@ -68,22 +68,22 @@ let num = 33;
 let isEven = num % 2 === 0;
 console.log(isEven); // false, there is a remainder for 33 divided by 2, as such 1 is not equal to 0
 console.log(!isEven); //true, 1 is not even to 0
-/*
+
 // 3
 let str1 = 'marker';
 let num = 'whiteboard'.length - str1.length;
-console.log(num); // ?
+console.log(num); // 4: 'whiteboard' length = 10, str1 'marker' length = 6 --> 10 - 6 = 4
 let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // ?
-let char = str2[num].toLowerCase(); // ?
-console.log(char + '!'); // ?
+console.log(str2[num].toUpperCase()); // C
+let char = str2[num].toLowerCase(); // c
+console.log(char + '!'); //*** 'c!'
 
 // 4
 let sentence = 'welcome to bootcamp prep';
 let lastChar = sentence[sentence.length - 1];
-console.log(lastChar); // ?
-console.log(sentence.indexOf(lastChar)); // ?
-*/
+console.log(lastChar); // 'p'
+console.log(sentence.indexOf(lastChar)); // 18 (the first 'p')
+
 // 5 - 
 
 // 6 - 
