@@ -12,7 +12,15 @@ let j = (2.5 * 'fish') //NaN
 let k = (5 >= 11) //false
 let l = (5 === 5.0) //true
 let m = (7 !== 7.1) //true
-console.log(m)
+let n = (5 + 5 > 8) //true (10 > 8)
+let o = (6 + 6 !== 12) //false (12 = 12)
+let p = (2 > 1 || false) //true 2 is greater than 1 or false
+let q = ('true' === true) //**FALSE 'true' does not strictly equal/compare to another valid operator
+let r = (10 % 2 === 0) //***TRUE % is calculating the remainder of 10 divided by 2, which is 0... 0 = 0
+let s = (21 % 2 === 0) //False checking for the remainder, 21/2 has a remainder, therfore 1 does not  = 0
+let t = (21 % 2 !== 0) //true the remainder of 21/2 does not equal 0
+let u = (21 % 2 === 1) //true there is a remainder
+console.log(u)
 // List 3 expressions that surprised you or gave unexpected results, why?
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
