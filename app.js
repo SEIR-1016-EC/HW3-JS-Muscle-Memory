@@ -103,10 +103,217 @@
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - Prediction: 
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num>5) {
+    console.log('if');
+}
+
+let num = 11;
+if (num > 5) {
+    console.log('if');
+}
 
 // 2 - Prediction: 
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if') 
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else { 
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5;
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else');
+}
 
 // 3 - Prediction: 
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else')
+} else {
+    console.log('else')
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if(num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
 // 4 - Prediction: 
 
