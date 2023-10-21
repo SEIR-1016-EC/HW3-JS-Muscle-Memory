@@ -13,6 +13,16 @@ isPrime(2017); // => true
 
 function isPrime(number) {
   // your code here
+  if(number === 1) {
+    return `${number} is neither prime nor composite`;
+  } else if(number > 1) {
+    for(i=2;i<number;i++) {
+      if(number%i===0) {
+        return 'false';
+      }
+    }
+    return 'true';
+  }
 }
-
+// console.log(isPrime(169));
 module.exports = isPrime;

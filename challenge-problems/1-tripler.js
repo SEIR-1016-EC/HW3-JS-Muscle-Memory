@@ -10,7 +10,12 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 
 function tripler(array) {
     // your code here
+    let arrayTriple = [];
+    for(i=0; i<array.length; i++) {
+        arrayTriple[i] = array[i] * 3;
+    }
+    return arrayTriple;
 }
 
-
+// console.log(tripler([4, 1, 7]));
 module.exports = tripler

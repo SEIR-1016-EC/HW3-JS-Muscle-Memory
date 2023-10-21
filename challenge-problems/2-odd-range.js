@@ -9,7 +9,15 @@ oddRange(6); // => [ 1, 3, 5 ]
 ******************************************************************************/
 
 function oddRange(end) {
-    // your code here
-}
+    // your code here 
+    let odds = []
+    for(i=0;i<=end;i++){
 
+        if(i%2 === 1) {
+            odds.push(i);
+        }
+    }
+    return odds;
+}
+// console.log(oddRange(6));
 module.exports = oddRange
