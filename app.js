@@ -85,14 +85,51 @@ console.log(lastChar); // 'p'
 console.log(sentence.indexOf(lastChar)); // 18 (the first 'p')
 
 // 5 - 
+let yourAge = 3;
+if (yourAge > 30) {
+  console.log('You are older than 30.')
+} else  if (yourAge < 30){
+  console.log('You are younger than 30.')
+} else {
+    console.log('You are 30.')
+}
 
 // 6 - 
+let str = 'spaghetti with chicken'
+if (str.length > 10) {
+    console.log('Long word string count.')
+}else {
+    console.log('Short word sting count.')
+}
+if (str[0] === 's') {
+    console.log('Your word begins with an s.')
+}
 
 // 7 - 
+let num = 15;
+if (num % 3 === 0) {
+  console.log('divisible by 3')
+} else if (num % 5 === 0) {
+  console.log('divisible by 5')
+}
 
 // 8 - 
+let num = 99
+if (num % 3 === 0) {
+  console.log('divisible by 3')
+}
+if (num % 5 === 0) {
+  console.log('divisible by 5')
+}
 
 // 9 -
+let str = 'john WicK'
+if (str[0] === str[0].toUpperCase()) {
+    console.log(str + ' starts with an uppercase!')
+}
+if (str[str.length -1] === str[str.length -1].toUpperCase()) {
+    console.log( str + ' ends with an uppercase!')
+}
 
 // 10 - 
 
