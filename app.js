@@ -93,12 +93,16 @@
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
+    //'Hello, bootcamp prep. How are you?'
 
 // 2 - 
+    // 'positive'
 
 // 3 - 
+    //nothing outputs because it is not invoked 
 
 // 4 - 
+    //nothingn outputs because it is not invoked 
 
 // 5 - 
 
