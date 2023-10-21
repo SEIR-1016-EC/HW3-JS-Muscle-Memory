@@ -1,5 +1,5 @@
 // Task 1 - Notes for JS Evaluation Predictions
-/*
+
 let a = (4 + 4 / 2) // 4 + (4/2) = 6
 let b = ((2 + -7) * 3) //-5 * 3 = -42
 let c = (101 % 10) // 1 (remainder)
@@ -34,10 +34,9 @@ let ee= ('engineering'.indexOf('r') > -1) //true 'r' exists and is therefore gre
 let ff= ('science'.indexOf('x') === -1) // true 'x' does not exist and is therefore equal to the return value of -1
 
 console.log(ff)
-*/
-/*
-// List 3 expressions that surprised you or gave unexpected results, why?
 
+// List 3 expressions that surprised you or gave unexpected results, why?
+/*
 1.  'engineering'.indexOf('G') returns a -1:  did not know that javascript will return a -1 for values that are not found in an array
 2.  (true && !(false || false)) evaluates to TRUE.  True and True or False
 3.  (2 + 'pizza') I mistaking viewed this as a mathmatical calcualtion rather than a string expression
@@ -54,7 +53,6 @@ console.log(ff)
                     this is my confusion.
 
 */
-
 // Task 2 - Practice JS Basics
 // 1
 let idx = 'abcde'.indexOf('D');
@@ -84,6 +82,7 @@ let lastChar = sentence[sentence.length - 1];
 console.log(lastChar); // 'p'
 console.log(sentence.indexOf(lastChar)); // 18 (the first 'p')
 
+//// Task 3 - Conditionals Practice 
 // 5 - 
 let yourAge = 3;
 if (yourAge > 30) {
@@ -132,7 +131,6 @@ if (str[str.length -1] === str[str.length -1].toUpperCase()) {
 }
 
 // 10 - 
-
 let num = 18
 if (num > 0) {
     console.log('postive')
@@ -147,48 +145,222 @@ if (num % 2 === 0) {
     console.log('odd')
 }
 
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
-
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
 
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 2 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 3 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 4 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 5 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 6 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 7 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 8 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
 // 9 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
+// 10 -
+let num = 11
+if (num > 5) {
+    console.log('if')
+}
 
+
+// 1 - 
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 2 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 3 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 4 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 5 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 6 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 7 -
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 8 -
+let num =5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
+// 9 -
+let num =5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
 // 10 - 
+let num = 5
+if (num > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
 
+
+// 1 -
+ let num = 0
+ if (num < 0) {
+    console.log('if')
+ } else if (num > 0) {
+    console.log('else if')
+ } else {
+    console.log('else')
+ }
+// 2 - 
+let num = 0
+if (num <0) {
+    console.log('if')
+} else if (num >0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 3 -
+let num = 0
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 4 - 
+let num = 0
+if (num > 0) {
+    console.log('if')
+} else if (num < 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 5 - 
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 6 - 
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 7 - 
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 8 - 
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 9 -
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
+// 10 - 
+let num = 10
+if (num < 0) {
+    console.log('if')
+} else if (num > 0) {
+    console.log('else if')
+} else {
+    console.log('else')
+}
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
