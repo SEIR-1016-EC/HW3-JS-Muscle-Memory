@@ -34,13 +34,23 @@ let ff= ('science'.indexOf('x') === -1) // true 'x' does not exist and is theref
 
 console.log(ff)
 
+/*
 // List 3 expressions that surprised you or gave unexpected results, why?
+
+1.  'engineering'.indexOf('G') returns a -1:  did not know that javascript will return a -1 for values that are not found in an array
+2.  (true && !(false || false)) evaluates to TRUE.  True and True or False
+3.  (2 + 'pizza') I mistaking viewed this as a mathmatical calcualtion rather than a string expression
+
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
 
+1.  (5 >= 11)
+2.  ('cat' + 'dog')
+
 // List 1 expression you are still 'shaky' on, why?
 
-
+('true' === true) . I don't think I understand entirely why this does not evaluate to true.  the string 'true' is a truthy variable, 
+                    this is my confusion.
 
 
 
