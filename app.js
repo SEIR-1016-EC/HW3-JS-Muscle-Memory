@@ -66,10 +66,10 @@
 // let char =str2[num].toLowerCase()
 // console.log(char + '!') // c!
 // 4- 
-let sentence = 'welcome to bootcamp prep'
-let lastChar = sentence[sentence.length -1]
-console.log(lastChar) // 
-console.log(sentence.indexOf(lastChar)) // 
+// let sentence = 'welcome to bootcamp prep'
+// let lastChar = sentence[sentence.length -1]
+// console.log(lastChar) // p
+// console.log(sentence.indexOf(lastChar)) // 20 -> actually printed 18
 //// Task 3 - Conditionals Practice 
 // 1 - 
 
@@ -81,15 +81,7 @@ console.log(sentence.indexOf(lastChar)) //
 
 // 5 - 
 
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
+// 6 -
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
