@@ -61,7 +61,6 @@
 //     Results- p, 18 *****
 // Was incorrect because I thought it would find the index of that last char and did not realize it would find the index of the first instance of the last char.
 
-
 // 5 - Prediction: 
 
 // 6 - Prediction: 
@@ -76,56 +75,56 @@
 
 
 //// Task 3 - Conditionals Practice 
-// 1 - 
+// 1 - Prediction: 'younger than 30'
 
-// 2 - 
+// 2 - Prediction: 'short string', 'string starts with p'
 
-// 3 - 
+// 3 - Prediction: 'divisible by 3'
 
-// 4 - 
+// 4 - Prediction: 'divisible by 3', 'divisible by 5'
 
-// 5 - 
+// 5 - Prediction: 'starts with a capital!
 
-// 6 - 
+// 6 - Prediction: 'negative', 'even'
 
-// 7 - 
+// 7 - Prediction: 
 
-// 8 - 
+// 8 - Prediction: 
 
-// 9 -
+// 9 - Prediction: 
 
-// 10 - 
+// 10 - Prediction: 
 
 //// Task 4 - Conditionals Muscle Memory
-// 1 - 
+// 1 - Prediction: 
 
-// 2 - 
+// 2 - Prediction: 
 
-// 3 - 
+// 3 - Prediction: 
 
-// 4 - 
+// 4 - Prediction: 
 
-// 5 - 
+// 5 - Prediction: 
 
-// 6 - 
+// 6 - Prediction: 
 
-// 7 - 
+// 7 - Prediction: 
 
-// 8 - 
+// 8 - Prediction: 
 
-// 9 -
+// 9 - Prediction: 
 
-// 10 - 
+// 10 - Prediction:  
 
 
 //// Task 5 - Function Muscle Memory
-// 1 - 
+// 1 - Prediction: 
 
-// 2 - 
+// 2 - Prediction: 
 
-// 3 - 
+// 3 - Prediction: 
 
-// 4 - 
+// 4 - Prediction: 
 
-// 5 - 
+// 5 - Prediction: 
 
