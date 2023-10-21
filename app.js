@@ -25,7 +25,13 @@ let w = (9 % 3 === 0) // true no remainder
 let x = (14 % 3 === 0) // false remainder 1 does not equal 0
 let y = ('new york'[0]) // 'n' or the first position in the array "new york"
 let z = ('new york'[1]) // 'e' or the second position in the array "new york"
-console.log(z)
+let aa= ('san francisco'[2 * 3]) // 'a' the 6th position of the array
+let bb= ('engineering'[3].toUpperCase()) // I
+let cc= ('engineering'.indexOf('G')) //** -1 'G' can't be found so javascript returns a -1
+let dd= ('engineering'.indexOf('neer')) //4 'neer' begins in the 4th index
+let ee= ('engineering'.indexOf('r') > -1) //true 'r' exists and is therefore greater than -1 (not found value)
+
+console.log(ee)
 
 // List 3 expressions that surprised you or gave unexpected results, why?
 
