@@ -166,26 +166,195 @@
 
 // 1 - 
 
+// let num =11
+// if (num>5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+// let num = 11
+// if (num > 5) {
+//     console.log('if')
+// }
+
 // 2 - 
+
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
+// let num = 5
+// if (num > 5) {
+//     console.log('if')
+// } else {
+//     console.log('else')
+// }
 
 // 3 - 
 
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
-
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('if')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if ( num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
+// let num = 0
+// if (num < 0) {
+//     console.log('if')
+// } else if (num > 0) {
+//     console.log('else if')
+// } else {
+//     console.log('else')
+// }
 
 //// Task 5 - Function Muscle Memory
+
 // 1 - 
 
 // 2 - 
