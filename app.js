@@ -1,7 +1,13 @@
 // Task 1 - Notes for JS Evaluation Predictions
 let a = (4 + 4 / 2) // 4 + (4/2) = 6
 let b = ((2 + -7) * 3) //-5 * 3 = -42
-console.log(b)
+let c = (101 % 10) // 1 (remainder)
+let d = (12 - 4 % 3) // 12 - 1(remainder) = 11
+let e = (true && false) // false (true and false cannot be true)
+let f = (true && !(false || false)) // **TRUE (true and not true (false) or not false(true)) --> True and True or False
+let g = (!true && !(false || false)) //False (not true and not false or not false) --> False and True or False
+let h = ('cat' + 'dog') //catdog
+console.log(h)
 // List 3 expressions that surprised you or gave unexpected results, why?
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
