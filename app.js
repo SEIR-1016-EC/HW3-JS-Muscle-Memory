@@ -76,16 +76,22 @@
 
 //// Task 3 - Conditionals Practice 
 // 1 - Prediction: 'younger than 30'
+//     Results- younger than 30
 
 // 2 - Prediction: 'short string', 'string starts with p'
+//     Results- short string, starts with p
 
 // 3 - Prediction: 'divisible by 3'
+//     Results- divisible by 3
 
 // 4 - Prediction: 'divisible by 3', 'divisible by 5'
+//     Results- divisible by 3, divisible by 5
 
 // 5 - Prediction: 'starts with a capital!
+//     Results- starts with a capital!
 
 // 6 - Prediction: 'negative', 'even'
+//     Results- negative, even
 
 // 7 - Prediction: 
 
