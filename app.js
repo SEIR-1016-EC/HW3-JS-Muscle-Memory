@@ -49,16 +49,22 @@
 // 4 - 
 
 // 5 - 
-
+    // 'younger than 30'
+  
 // 6 - 
-
+    // 'short string' and 'starts with p'
+  
 // 7 - 
-
+    // 'divisible by 3'
+  
 // 8 - 
+    // 'divisible by 3' and 'divisible by 5'
 
 // 9 -
+    //'starts with a capital!'
 
 // 10 - 
+    // 'negative' and 'even'
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
