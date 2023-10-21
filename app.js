@@ -7,7 +7,12 @@ let e = (true && false) // false (true and false cannot be true)
 let f = (true && !(false || false)) // **TRUE (true and not true (false) or not false(true)) --> True and True or False
 let g = (!true && !(false || false)) //False (not true and not false or not false) --> False and True or False
 let h = ('cat' + 'dog') //catdog
-console.log(h)
+let i = (2 + 'pizza') //**2pizza (number 2 and the string pizza)
+let j = (2.5 * 'fish') //NaN
+let k = (5 >= 11) //false
+let l = (5 === 5.0) //true
+let m = (7 !== 7.1) //true
+console.log(m)
 // List 3 expressions that surprised you or gave unexpected results, why?
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
