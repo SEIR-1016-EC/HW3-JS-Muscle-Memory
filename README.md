@@ -14,38 +14,38 @@ Suggestions:
 
 
 ```js
-4 + 4 / 2
-(2 + -7) * 3
-101 % 10
-12 - 4 % 3
-true && false
-true && !(false || false)
-!true && !(false || false)
-'cat' + 'dog'
-2 + 'pizza'
-2.5 * 'fish'
-5 >= 11
-5 === 5.0
-7 !== 7.1
-5 + 5 > 8
-6 + 6 !== 12
-2 > 1 || false
-'true' === true
-10 % 2 === 0
-21 % 2 === 0
-21 % 2 !== 0
-21 % 2 === 1
-12 % 3 === 0
-9 % 3 === 0
-14 % 3 === 0
-'new york'[0]
-'new york'[1]
-'san francisco'[2 * 3]
-'engineering'[3].toUpperCase()
-'engineering'.indexOf('G')
-'engineering'.indexOf('neer')
-'engineering'.indexOf('r') > -1
-'science'.indexOf('x') === -1
+4 + 4 / 2 // 6
+(2 + -7) * 3 // -15
+101 % 10 // 1
+12 - 4 % 3 // 11
+true && false // false
+true && !(false || false) // true
+!true && !(false || false) // false
+'cat' + 'dog' // catdog
+2 + 'pizza' // 2pizza
+2.5 * 'fish' // NaN
+5 >= 11 // false
+5 === 5.0 // false
+7 !== 7.1 // true
+5 + 5 > 8 // true
+6 + 6 !== 12 // false
+2 > 1 || false // true
+'true' === true // false
+10 % 2 === 0 // true
+21 % 2 === 0 // false
+21 % 2 !== 0 // true
+21 % 2 === 1 // true
+12 % 3 === 0 // true
+9 % 3 === 0 // true
+14 % 3 === 0 // false
+'new york'[0] // n
+'new york'[1] // e
+'san francisco'[2 * 3] // a
+'engineering'[3].toUpperCase() // I
+'engineering'.indexOf('G') // undefined
+'engineering'.indexOf('neer') // 4
+'engineering'.indexOf('r') > -1 // true
+'science'.indexOf('x') === -1 // true 
 ```
 
 ### Task 2
@@ -56,33 +56,33 @@ true && !(false || false)
 // 1
 let idx = 'abcde'.indexOf('D');
 idx = idx + 11;
-console.log(idx); // ?
+console.log(idx); // 10
 idx * 2;
-console.log(idx); // ?
+console.log(idx); // 20
 ```
 ```js
 // 2
 let num = 33;
 let isEven = num % 2 === 0;
-console.log(isEven); // ?
-console.log(!isEven); // ?
+console.log(isEven); // false
+console.log(!isEven); // true
 ```
 ```js
 // 3
 let str1 = 'marker';
 let num = 'whiteboard'.length - str1.length;
-console.log(num); // ?
+console.log(num); // 4
 let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // ?
-let char = str2[num].toLowerCase(); // ?
-console.log(char + '!'); // ?
+console.log(str2[num].toUpperCase()); // C
+let char = str2[num].toLowerCase(); // c
+console.log(char + '!'); // c!
 ```
 ```js
 // 4
 let sentence = 'welcome to bootcamp prep';
 let lastChar = sentence[sentence.length - 1];
-console.log(lastChar); // ?
-console.log(sentence.indexOf(lastChar)); // ?
+console.log(lastChar); // p
+console.log(sentence.indexOf(lastChar)); // 23
 ```
 ### Task 3: Conditionals
 
