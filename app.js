@@ -1,4 +1,5 @@
 // Task 1 - Notes for JS Evaluation Predictions
+/*
 let a = (4 + 4 / 2) // 4 + (4/2) = 6
 let b = ((2 + -7) * 3) //-5 * 3 = -42
 let c = (101 % 10) // 1 (remainder)
@@ -33,7 +34,7 @@ let ee= ('engineering'.indexOf('r') > -1) //true 'r' exists and is therefore gre
 let ff= ('science'.indexOf('x') === -1) // true 'x' does not exist and is therefore equal to the return value of -1
 
 console.log(ff)
-
+*/
 /*
 // List 3 expressions that surprised you or gave unexpected results, why?
 
@@ -52,17 +53,37 @@ console.log(ff)
 ('true' === true) . I don't think I understand entirely why this does not evaluate to true.  the string 'true' is a truthy variable, 
                     this is my confusion.
 
-
+*/
 
 // Task 2 - Practice JS Basics
-// 1 - 
+// 1
+let idx = 'abcde'.indexOf('D');
+idx = idx + 11;
+console.log(idx); // 10 'D" does not exist and will return -1.  (-1) + 11 (number + a number) will return 10
+idx * 2;
+console.log(idx); //*** idx = 10, because we are not updating the value by explicitly assigning a 'let =', therefore idx remains 10
 
-// 2 - 
+// 2
+let num = 33;
+let isEven = num % 2 === 0;
+console.log(isEven); // false, there is a remainder for 33 divided by 2, as such 1 is not equal to 0
+console.log(!isEven); //true, 1 is not even to 0
+/*
+// 3
+let str1 = 'marker';
+let num = 'whiteboard'.length - str1.length;
+console.log(num); // ?
+let str2 = 'bootcamp';
+console.log(str2[num].toUpperCase()); // ?
+let char = str2[num].toLowerCase(); // ?
+console.log(char + '!'); // ?
 
-// 3 - 
-
-// 4 - 
-
+// 4
+let sentence = 'welcome to bootcamp prep';
+let lastChar = sentence[sentence.length - 1];
+console.log(lastChar); // ?
+console.log(sentence.indexOf(lastChar)); // ?
+*/
 // 5 - 
 
 // 6 - 
