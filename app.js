@@ -30,8 +30,9 @@ let bb= ('engineering'[3].toUpperCase()) // I
 let cc= ('engineering'.indexOf('G')) //** -1 'G' can't be found so javascript returns a -1
 let dd= ('engineering'.indexOf('neer')) //4 'neer' begins in the 4th index
 let ee= ('engineering'.indexOf('r') > -1) //true 'r' exists and is therefore greater than -1 (not found value)
+let ff= ('science'.indexOf('x') === -1) // true 'x' does not exist and is therefore equal to the return value of -1
 
-console.log(ee)
+console.log(ff)
 
 // List 3 expressions that surprised you or gave unexpected results, why?
 
