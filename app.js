@@ -68,10 +68,13 @@
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+    //'if'
 
 // 2 - 
+    // 'else'
 
 // 3 - 
+    //'else'
 
 // 4 - 
 
