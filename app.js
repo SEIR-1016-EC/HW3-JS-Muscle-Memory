@@ -133,6 +133,19 @@ if (str[str.length -1] === str[str.length -1].toUpperCase()) {
 
 // 10 - 
 
+let num = 18
+if (num > 0) {
+    console.log('postive')
+} else if (num < 0) {
+    console.log('negative')
+} else {
+    console.log(0)
+}
+if (num % 2 === 0) {
+    console.log('even')
+} else {
+    console.log('odd')
+}
 
 //// Task 3 - Conditionals Practice 
 // 1 - 
