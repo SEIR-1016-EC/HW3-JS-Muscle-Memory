@@ -1,5 +1,7 @@
 // Task 1 - Notes for JS Evaluation Predictions
-
+let a = (4 + 4 / 2) // 4 + (4/2) = 6
+let b = ((2 + -7) * 3) //-5 * 3 = -42
+console.log(b)
 // List 3 expressions that surprised you or gave unexpected results, why?
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
