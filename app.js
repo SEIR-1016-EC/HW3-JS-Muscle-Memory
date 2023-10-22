@@ -904,5 +904,4 @@ function evenCaps(sentence) {
     return newSentence;
   }
 
-// 5 - 
 
