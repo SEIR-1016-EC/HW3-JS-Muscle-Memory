@@ -8,7 +8,7 @@ Suggestions:
 - Get used to typing JavaScript! Some of these answers are obvious but run the code anyway to get familiar with the workflow for running JavaScript.
 
 ### Task 1
-- Goal: Predict what the following JavaScript expressions will evaluate to. 
+- Goal: Predict what the following JavaScript expressions will evaluate to.
 - Task: Complete all of the expressions below inside of the Chrome DevTools.
 - Note: If a method or output is unexpected put a note as a comment in the app.js file for task 1. 
 
