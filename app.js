@@ -89,11 +89,34 @@ for (let i=0; i < 25; i--){
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+if (num > 6) {
+    console.log('if');
+}
+if ( num< 6) {
+    console.log('if');
 
+}
+if (num > 6){
+    console.log('if');
+}
+if (num > 6)[
+    console.log ('if');
+]
+if (num > 6){
+console.log ('if');
+}
+/// this is gettig easier but im not used to using () {} [] and its making use my fingers like i ahvent before
 // 2 - 
+let num = 33
+let num =33 
+let num =33 
+let num = 33
+let num = 33
+let num =33
+let num = 33
 
 // 3 - 
-
+let sentence = "You are going to get this";
 // 4 - 
 
 // 5 - 
@@ -111,7 +134,35 @@ for (let i=0; i < 25; i--){
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
-
+function sayHello(name) {
+    let msg = "Hello, " + name + ". How are you?";
+    return msg;
+  }
+  console.log(sayHello("muscle memory"));
+  
+  function sayHello(name) {
+    let msg = "Hello, " + name + ". How are you?";
+    return msg;
+  }
+  console.log(sayHello("bootcamp prep"));
+  
+  function sayHello(name) {
+    let msg = "Hello, " + name + ". How are you?";
+    return msg;
+  }
+  console.log(sayHello("muscle memory"));
+  
+  function sayHello(name) {
+    let msg = "Hello, " + name + ". How are you?";
+    return msg;
+  }
+  console.log(sayHello("muscle memory"));
+  
+  function sayHello(name) {
+    let msg = "Hello, " + name + ". How are you?";
+    return msg;
+  }
+  console.log(sayHello("muscle memory"));
 // 2 - 
 
 // 3 - 
