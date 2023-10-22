@@ -20,50 +20,57 @@
 
 
 // Task 2 - Practice JS Basics
-// 1 - Prediction: D = 3 + 11 = 14 
-       Actual : 10 
-       Prediction:  D = 3 * 2 = 6
-       Actual: 10 
-// 2 - Prediction: false
-       Actual: False 
-
+// 1 - 
+        Prediction: D = 3 + 11 = 14 
+        Actual : 10 
+        Prediction:  D = 3 + 11 = 14 *2 = 28
+        Actual: 10 
+// 2 - 
+        Prediction: false
+        Actual: False 
+        Prediction: true
+        Actual: true 
 // 3 - 
+        Prediction: 'whiteboard' (10) - 'marker' (6) = 4
+        Actual: 4
+        Prediction:  num = 4 'bootcamp' [4] + uppercase = C
+        Actual: C
+        Prediction:  num = 4 'bootcamp' [4] + lowercase + ! =c!
+        Actual = c!
 
 // 4 - 
+        Prediction: 'welcome to boot camp' length - 1 = 'welcome to bootcamp' = last character = p
+        Actual: p
+        Prediction: 'welcome to boot camp' length - 1 = 'welcome to bootcamp' = last character = p = index[16]
+        Actual: 18
 
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
 
 
 // Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
 // 5 - 
+        Prediction: let age = 32 = 'older than 30'
+        Actual = 'older than 30'    
 
 // 6 - 
+        Prediction: 'gnocchi' = short string
+        Actual = short string
 
 // 7 - 
+        Prediction: let num = 30 = divisible by 3
+        Actual: divisible by 3
 
 // 8 - 
+        Prediction: let num = 30 = divisible by 3 and divisible by 5
+        Actual: divisible by 3 and divisible by 5
 
-// 9 -
+// 9 - 
+        Prediction: 'shelby pagaN' = 'ends with a capital!'
+        Actual: 'ends with a capital!'
 
 // 10 - 
+        Prediction: let num = 16 = positive, even
+        Actual: positive, even
+
 
 // Task 4 - Conditionals Muscle Memory
 // 1 - 
