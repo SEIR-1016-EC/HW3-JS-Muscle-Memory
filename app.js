@@ -83,25 +83,85 @@ console.log(sentence.indexOf(lastChar)); // 18
 //need to revisit;; 
 
 //// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
 
 // 5 - 
+let age = 50; // try different numbes here - I did 50 
+if (age > 30) {
+  console.log('older than 30');
+} else {
+  console.log('younger than 30');
+}
+// This will return 'older than 30' 
 
 // 6 - 
 
+let str = 'pizza'; // try different strings here
+if (str.length > 10) {
+  console.log('long string');
+} else {
+  console.log('short string');
+} 
+// will return 'short string' 
+
+if (str[0] === 'p') {
+  console.log('starts with p');
+}
+
+// this will return 'starts with p'
+
 // 7 - 
+
+let num = 15; // try different numbers here
+if (num % 3 === 0) {
+  console.log('divisible by 3');
+} else if (num % 5 === 0) {
+  console.log('divisible by 5');
+}
+
+// try to ask in office hours... Aren't these both divisible by 3 and 5 
+
 
 // 8 - 
 
+let num = 20; // try different numbers here - I put 20 
+if (num % 3 === 0) {
+  console.log('divisible by 3');
+}
+if (num % 5 === 0) {
+  console.log('divisible by 5');
+}
+// This returned 'divisible by 5'
+
 // 9 -
+let str = 'General Assembly'; // try different strings here
+if (str[0] === str[0].toUpperCase()) {
+  console.log('starts with a capital!');
+}
+if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
+  console.log('ends with a capital!');
+}
+
+//  This will return 'starts with a capital' 
 
 // 10 - 
+
+let num = -44; // try different numbers here
+if (num > 0) {
+  console.log('positive');
+} else if (num < 0) {
+  console.log('negative');
+} else {
+  console.log(0);
+}
+// will return negative 
+
+if (num % 2 === 0) {
+  console.log('even');
+} else {
+  console.log('odd');
+}
+// will return 'even' 
+
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
