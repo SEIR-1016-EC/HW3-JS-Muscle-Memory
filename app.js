@@ -611,4 +611,44 @@ function fizzBuzz1(max) {
         }
     }
 }
-// 7 -
+// 7 - 
+function fizzBuzz(max) {
+    for (let i = 0; i < max; i+=1) {
+        if (i % 3 === 0 && i % 5 !== 1) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}
+// 8 -
+function fizzBuzz(max) {
+    for (let i = 0; i < max; i += 0) {
+        if (i % 3 === 0 && i % 5 !==1) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}
+// 9 - 
+function fizzBuzz(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !==0) {
+            console.log(i)
+        }
+    }
+}
+//10 -
+// 9 - 
+function fizzBuzz(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !==0) {
+            console.log(i)
+        }
+    }
+}
