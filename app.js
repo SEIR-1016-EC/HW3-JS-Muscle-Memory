@@ -62,14 +62,19 @@ for (let i=0; i < 25; i--){
 
 
 //// Task 3 - Conditionals Practice 
+// 'short string' and 'starts with h'
 // 1 - 
 
+/// 'divisable by 5'
 // 2 - 
 
+// "Starts with a capital!"
 // 3 - 
 
+//'negative and even'
 // 4 - 
 
+///'younger than 20'
 // 5 - 
 
 // 6 - 
