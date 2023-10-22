@@ -20,9 +20,12 @@
 
 
 // Task 2 - Practice JS Basics
-// 1 - 
-
-// 2 - 
+// 1 - Prediction: D = 3 + 11 = 14 
+       Actual : 10 
+       Prediction:  D = 3 * 2 = 6
+       Actual: 10 
+// 2 - Prediction: false
+       Actual: False 
 
 // 3 - 
 
