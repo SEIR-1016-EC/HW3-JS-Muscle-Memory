@@ -28,18 +28,22 @@
 // 10 -
 
 //// Task 3 - Conditionals Practice
-// 1 -
+// 1
+"Younger than 30";
 
 // 2 -
-
+"short string";
+"starts with p";
 // 3 -
-
+"divisible by 3";
 // 4 -
-
+"divisible by 3";
 // 5 -
-
+"starts with a capital";
+"ends with a capital";
 // 6 -
-
+"negative";
+"even";
 // 7 -
 
 // 8 -
