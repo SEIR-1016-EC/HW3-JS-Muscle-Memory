@@ -77,14 +77,49 @@ if (num1 % 3 === 0) {
   console.log('divisible by 5');
 }
 
-// 15 would print 'divisible by 3'. I thought that line and 'divisible by 5' on the next line
+// num1 would print 'divisible by 3'. I thought that it would also print 'divisible by 5' on the next line, but it is an else statement, so if the first else condition is met then it'll stop there.
 
 // 8 - 
 
+let num2 = 15; // try different numbers here
+if (num2 % 3 === 0) {
+  console.log('divisible by 3');
+}
+if (num2 % 5 === 0) {
+  console.log('divisible by 5');
+}
+
+// I think this one will print both logs. Yep. 2 separate if statements so they both print because num2 (15) is true for both booleans
+
 // 9 -
+
+let str4 = 'General AssemblY'; // try different strings here
+if (str4[0] === str4[0].toUpperCase()) {
+  console.log('starts with a capital!');
+}
+if (str4[str4.length - 1] === str4[str4.length - 1].toUpperCase()) {
+  console.log('ends with a capital!');
+}
+
+// changed the last index in the string to a capital and both strings will be true and will print 
 
 // 10 - 
 
+let num5 = -44; // try different numbers here
+if (num5 > 0) {
+  console.log('positive');
+} else if (num5 < 0) {
+  console.log('negative');
+} else {
+  console.log(0);
+}
+if (num5 % 2 === 0) {
+  console.log('even');
+} else {
+  console.log('odd');
+}
+
+// -44 should print 'negative' and 'even' on 2 separate lines
 
 //// Task 3 - Conditionals Practice 
 // 1 - 
