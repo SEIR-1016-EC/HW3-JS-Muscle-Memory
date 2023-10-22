@@ -15,21 +15,37 @@ Suggestions:
 
 ```js
 4 + 4 / 2
+// expected 6 (BEDMAS)
 (2 + -7) * 3
+// expected -15
 101 % 10
+// expected 1 (100 / 10 leaves remainder of 1)
 12 - 4 % 3
+// expected 11 (remainder 1 from 4 % 3 as first operation, then subtracted from 12)
 true && false
+// expected undefined, but I now understand that true AND false is actually a false statement in JS. makes sense. i can't think of anything that could logically be true AND false at the same time.
 true && !(false || false)
+// expected true
 !true && !(false || false)
+// expected false (false and true is a false logic statement in JS)
 'cat' + 'dog'
+// expected catdog (spits out the combination of the  two strings with no spaces in between)
 2 + 'pizza'
+// expected 2pizza( same reason as above)
 2.5 * 'fish'
+// expected fishfishfi. I forgot about NaN.
 5 >= 11
+// expected false
 5 === 5.0
+// expected false. I thought that the 2 values, while actually equal, may not be recognized as the same in JS.
 7 !== 7.1
+// expected true
 5 + 5 > 8
+// expected true
 6 + 6 !== 12
+// expected false
 2 > 1 || false
+// 
 'true' === true
 10 % 2 === 0
 21 % 2 === 0
