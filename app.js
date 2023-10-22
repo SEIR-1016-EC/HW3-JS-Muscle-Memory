@@ -90,6 +90,10 @@ console.log(lastChar); // 'p'
 console.log(sentence.indexOf(lastChar)); // 18 I am assuming  it is getting the first instance of 'p'
 */
 /*
+
+
+//// Task 3 - Conditionals Practice 
+/*
 // 5 - 
 let age = 23;
 if(age > 30){
@@ -158,32 +162,111 @@ will print out 'starts with a capital!'
 
 */
 // 10 - 
+/*
+let num = -99;
+if (num > 0){
+    console.log('positive');
+} else if (num < 0){
+    console.log('negative');
+} else {
+    console.log(0);
+}
+if (num % 2 === 0){
+    console.log('even');
+} else {
+    console.log('odd')
+}
 
+/*
+will print out both 'negative' and 'odd'
 
-
-
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
+*/
 
 //// Task 4 - Conditionals Muscle Memory
+// 1
+/*
+let num = 11;
+if(num >5){
+    console.log('if');
+}
+
+// 2 - 
+
+let num = 12;
+if(num > 5){
+    console.log('if');
+}
+
+// 3 - 
+let num = 13;
+if(num > 5){
+    console.log('if');
+}
+
+// 4 - 
+let num = 14;
+if(num > 5){
+    console.log('if');
+}
+
+// 5 - 
+let num = 15;
+if(num > 5){
+    console.log('if');
+}
+
+// 6 - 
+let num = 16;
+if(num > 5){
+    console.log('if');
+}
+// 7 - 
+let num = 17;
+if(num > 5){
+    console.log('if');
+}
+// 8 - 
+let num = 18;
+if(num > 5){
+    console.log('if');
+}
+
+// 9 -
+let num = 19;
+if (num > 5){
+    console.log('if');
+}
+// 10 - 
+let num = 20
+if(num > 5){
+    console.log('if');
+}
+
+// 1 - 
+let num = 5;
+if (num > 5){
+    console.log('if');
+} else {
+    clg
+}
+// 2 - 
+
+// 3 - 
+
+// 4 - 
+
+// 5 - 
+
+// 6 - 
+
+// 7 - 
+
+// 8 - 
+
+// 9 - 
+
+// 10 - 
+
 // 1 - 
 
 // 2 - 
@@ -200,10 +283,9 @@ will print out 'starts with a capital!'
 
 // 8 - 
 
-// 9 -
+// 9 - 
 
 // 10 - 
-
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
