@@ -144,8 +144,67 @@ if (num5 % 2 === 0) {
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+    -
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+    
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
+
+    let num = 11;
+    if (num > 5) {
+        console.log('if');
+    }
 
 // 2 - 
+
+    let num = 5;
+    if (num > 5) {
+        console.log('if');
+    } else {
+        console.log('else');
+    }
+
+    
 
 // 3 - 
 
