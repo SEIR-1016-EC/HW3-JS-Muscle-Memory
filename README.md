@@ -74,7 +74,7 @@ let num = 'whiteboard'.length - str1.length;
 console.log(num); // 4
 let str2 = 'bootcamp';
 console.log(str2[num].toUpperCase()); // C
-let char = str2[num].toLowerCase(); // c
+let char = str2[num].toLowerCase(); //
 console.log(char + '!'); // c!
 ```
 ```js
@@ -101,7 +101,9 @@ if (age > 30) {
   console.log('older than 30');
 } else {
   console.log('younger than 30');
-}
+} 
+
+// younger than 30
 ```
 ```js
 // 6
@@ -110,10 +112,10 @@ if (str.length > 10) {
   console.log('long string');
 } else {
   console.log('short string');
-}
+} // short string
 if (str[0] === 'p') {
   console.log('starts with p');
-}
+} //starts with p
 ```
 ```js
 // 7
@@ -122,7 +124,7 @@ if (num % 3 === 0) {
   console.log('divisible by 3');
 } else if (num % 5 === 0) {
   console.log('divisible by 5');
-}
+} // divisible by 3
 ```
 ```js
 // 8
@@ -132,17 +134,17 @@ if (num % 3 === 0) {
 }
 if (num % 5 === 0) {
   console.log('divisible by 5');
-}
+} // divisible by 3
 ```
 ```js
 // 9
 let str = 'General Assembly'; // try different strings here
 if (str[0] === str[0].toUpperCase()) {
   console.log('starts with a capital!');
-}
+} // starts with a capital
 if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
   console.log('ends with a capital!');
-}
+} //
 ```
 ```js
 // 10
@@ -153,12 +155,12 @@ if (num > 0) {
   console.log('negative');
 } else {
   console.log(0);
-}
+} // negative
 if (num % 2 === 0) {
   console.log('even');
 } else {
   console.log('odd');
-}
+} // even
 ```
 ### Task 4: Conditional Muscle Memory
 - Goal: Practice typing the syntax for conditionals. 

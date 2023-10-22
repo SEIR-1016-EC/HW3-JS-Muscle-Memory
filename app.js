@@ -67,20 +67,74 @@ console.log(isEven);
 console.log(!isEven)
 
 // 3 - 
-
+let str1 = 'marker'
+let num1 ='whiteboard'.length - str1.length
+console.log(num1)
+let str2 = 'bootcamp'
+console.log(str2[num1].toUpperCase());
+let char = str2[num1].toLowerCase();
+console.log(char + '!')
 // 4 - 
-
+let sentence = 'welcome to bootcamp prep';
+let lastChar = sentence[sentence.length - 1]
+console.log(lastChar)
+console.log(sentence.indexOf(lastChar))
 // 5 - 
-
+let age = 30
+if (age > 30) {
+    console.log('older than 30')
+} else {
+    console.log('younger than 30')
+}
 // 6 - 
-
+let str = 'pizza'
+if (str.length > 10) {
+    console.log('long string')
+} else {
+    console.log('short string')
+} 
+if (str[0] === 'p') {
+    console.log('starts with p')
+}
 // 7 - 
+let num2 = 15
+if (num2 % 3 === 0) {
+    console.log('divisible by 3')
+} else if (num2 % 5 === 0) {
+    console.log('divisible by 5')
+}
 
 // 8 - 
+let num3 = 20
+if (num3 % 3 === 0) {
+    console.log('divisible by 3')
+} else if (num3 % 5 === 0) {
+    console.log('divisible by 5')
+}
 
 // 9 -
+let str3 = 'General AssemblY'
+if (str3[0] === str3[0].toUpperCase()) {
+    console.log('starts with a capital!')
+} 
+if (str3[str3.length-1] === str3[str3.length-1].toUpperCase()){
+    console.log('ends with a capital!')
+}
 
 // 10 - 
+let num4 = 86;
+if (num4 > 0){
+    console.log('positive')
+} else if (num4 < 0) {
+    console.log('negative')
+} else {
+    console.log(0)
+}
+if (num4 % 2 === 0) {
+    console.log('even')
+} else {
+    console.log('odd')
+}
 
 
 //// Task 3 - Conditionals Practice 
@@ -106,6 +160,181 @@ console.log(!isEven)
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+if (num > 5) {
+    console.log('if');
+}
+
+if (num > 5) {
+    console.log('if');
+}
+
+if (num > 5) {
+    console.log('if');
+}
+
+if (num > 5) {
+    console.log('if');
+}
+
+num = 5
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log ('else');
+}
+
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log ('else');
+}
+
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+num = 0
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num < 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num < 0) {
+    console.log ('else if');
+} else {
+    console.log ('else');
+}
+
+if (num < 0) {
+    console.log('if');
+}   else if (num < 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else')
+}
 
 // 2 - 
 
