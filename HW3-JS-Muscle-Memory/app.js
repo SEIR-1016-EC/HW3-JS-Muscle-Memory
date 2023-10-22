@@ -1,11 +1,46 @@
 // Task 1 - Notes for JS Evaluation Predictions
 
 // List 3 expressions that surprised you or gave unexpected results, why?
+2.5 * "fish;"; // I figured it would be undefined or NaN because in my head I'm like you can't do that
+2 + "pizza"; // this one was surpising as well but I guess adding it is different then multiplyin
+
+let str = "General Assembly";
+if (str[0] === str[0].toUpperCase()) {
+  console.log("starts with a capital!");
+}
+if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
+  console.log("ends with a capital!");
+} // I don't understand this one... it would log ends with a caputal but there are no ending capitals..idk
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
+let str = "pizza";
+if (str.length > 10) {
+  console.log("long string");
+} else {
+  console.log("short string");
+}
+if (str[0] === "p") {
+  console.log("starts with p");
+} // THIS ONE CLICKED RIGHT AWAY
+
+let num = 15;
+if (num % 3 === 0) {
+  console.log("divisible by 3");
+}
+if (num % 5 === 0) {
+  console.log("divisible by 5");
+} // THIS ONE DID TOO
 
 // List 1 expression you are still 'shaky' on, why?
-
+function fizzBuzz1(max) {
+  for (let i = 0; i < max; i += 1) {
+    if (i % 3 === 0 && i % 5 !== 0) {
+      console.log(i);
+    } else if (i % 5 === 0 && i % 3 !== 0) {
+      console.log(i);
+    }
+  }
+} // This one is so confusing to me... idk why exactly but I could not make sense of it
 // Task 2 - Practice JS Basics
 // 1 -
 "10" & "10";
