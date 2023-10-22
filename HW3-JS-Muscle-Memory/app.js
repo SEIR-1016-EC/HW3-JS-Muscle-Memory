@@ -237,7 +237,96 @@ if (num < 0) {
 }
 // I started getting a headache at this point.. I would go back and look to see what I mistyped and it would take forever to see it.
 // 4 -
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
 
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+
+let num = 0;
+if (num < 0) {
+  console.log("if");
+} else if (num > 0) {
+  console.log("else if");
+} else {
+  console.log("else");
+}
+// Kept getting this one mixed up with the one before it
 // 5 -
 
 // 6 -
