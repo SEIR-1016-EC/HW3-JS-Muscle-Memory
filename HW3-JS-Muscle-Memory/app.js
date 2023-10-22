@@ -252,11 +252,180 @@ if (num < 0) {
 
 //// Task 5 - Function Muscle Memory
 // 1 -
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+
+function sayHello(name) {
+  let msg = "Hello, " + name + ". How are you?";
+  return msg;
+}
+console.log(sayHello("bootcamp prep"));
+// This one wasn't too bad at first but the repetitions started to get harder
 
 // 2 -
 
 // 3 -
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
 
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "positive";
+  } else if (num < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(checkNumber(5));
+// SOS at this point ... this one took me the longest
 // 4 -
 
 // 5 -
