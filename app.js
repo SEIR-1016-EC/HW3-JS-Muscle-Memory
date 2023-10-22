@@ -118,7 +118,7 @@ if (num % 3 === 0) {
   console.log('divisible by 5');
 }
 
-// try to ask in office hours... Aren't these both divisible by 3 and 5 
+// try to ask in office hours... Aren't these both divisible by 3 and 5 // JK it will go through the first if statment first then if its false it'll move onto the else statement 
 
 
 // 8 - 
@@ -165,26 +165,236 @@ if (num % 2 === 0) {
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+  console.log('if');
+}
+
+let num = 11;
+if (num >5) {
+    console.log('if');
+}
+ let num = 11
+ if (num>5) {
+    console.log('if');
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if');
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if');
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if');
+ }
+
+ let num = 11;
+ if (num >5) {
+    console.log('if')
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if')
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if')
+ }
+
+ let num =11; 
+ if (num > 5) {
+    console.log('if')
+ }
+
+ let num = 11;
+ if (num > 5) {
+    console.log('if')
+ }
 
 // 2 - 
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+  console.log('if');
+} else {
+  console.log('else');
+}
 
+let num = 5 
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5 
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5 
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log('else');
+}
+
+let num = 5
+if (num > 5) {
+    console.log ('if');
+} else {
+    console.log('else');
+}
+
+let num = 5 
+if (num > 5) {
+console.log ('if');
+} else {
+console.log('else');
+}
+
+let num = 5 
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else')
+}
+
+let num = 5
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num = 5 
+if(num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num =5
+if(num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num =5 
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
 // 3 - 
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+  console.log('if');
+} else if (num > 0) {
+  console.log('else if');
+} else {
+  console.log('else');
+}
 
-// 4 - 
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 5 - 
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 6 - 
+let num  = 0
+if (num < 0) {
+    console.log('if');
+} else if {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 7 - 
+let num = 0
+if (num < 0) {
+    console.log('if');
+} else if {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 8 - 
+let num = 0
+if (num < 0) {
+    console.log('if');
+} else if {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 9 -
+let num = 0
+if (num < 0) {
+    console.log('if');
+} else if {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
-// 10 - 
+let  num = 0 
+if (num < 0) {
+    console.log('if');
+} else if {
+    console.log('else if');
+} else {
+    console.log('else')
+}
 
+let num = 0;
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
+let num = 0;
+if (num <0) {
+    confirm.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num = 0;
+if (num <0) {
+    confirm.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 //// Task 5 - Function Muscle Memory
 // 1 - 
 
