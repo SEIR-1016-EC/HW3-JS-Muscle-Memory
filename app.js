@@ -423,3 +423,118 @@ function sayHello(name) {
     return msg
 }
 console.log(sayHello('Mister Softee'))
+
+//Task 5, Practice 2
+// 1 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(-5))
+// 2 - 
+function checkNumber(num) {
+    if (num > 0 ) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(-20))
+// 3 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return ' negaitve'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(0))
+// 4 - 
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else { 
+        return ' zero'
+    }
+}
+console.log(checkNumber(2222))
+// 5 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(-3934))
+// 6 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'postive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return ' zero'
+    }
+}
+console.log(checkNumber(000))
+// 7 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'postive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return ' zero'
+    }
+}
+console.log(checkNumber(120393920393))
+// 8 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'postive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return ' zero'
+    }
+}
+console.log(checkNumber(-99292))
+// 9 - 
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(10))
+//10 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive'
+    } else if (num < 0) {
+        return 'negative'
+    } else {
+        return 'zero'
+    }
+}
+console.log(checkNumber(1))
+
+//Task 5, Practice 3
+// 1 -
