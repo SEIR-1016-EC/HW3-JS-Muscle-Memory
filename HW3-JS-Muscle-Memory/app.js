@@ -8,13 +8,13 @@
 
 // Task 2 - Practice JS Basics
 // 1 -
-
+"10" & "10";
 // 2 -
-
+"false" & "true";
 // 3 -
-
+"-1", "p", "!p";
 // 4 -
-
+"p", "18";
 // 5 -
 
 // 6 -
@@ -29,21 +29,21 @@
 
 //// Task 3 - Conditionals Practice
 // 1
-"Younger than 30";
+("Younger than 30");
 
 // 2 -
-"short string";
-"starts with p";
+("short string");
+("starts with p");
 // 3 -
-"divisible by 3";
+("divisible by 3");
 // 4 -
-"divisible by 3";
+("divisible by 3");
 // 5 -
-"starts with a capital";
-"ends with a capital";
+("starts with a capital");
+("ends with a capital");
 // 6 -
-"negative";
-"even";
+("negative");
+("even");
 // 7 -
 
 // 8 -
