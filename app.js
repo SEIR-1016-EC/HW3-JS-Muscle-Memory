@@ -52,25 +52,114 @@ true && !(false || false) ---> true
 
 
 // Task 2 - Practice JS Basics
-// 1 - 
 
-// 2 - 
+// 1 - // 1
+/*
+let idx = 'abcde'.indexOf('D');
+idx = idx + 11; // 10
+console.log(idx); // 10, 'D' is -1 positioning so 11 +(-1) is 10.
+idx * 2; //20
+console.log(idx); // 10
+*/
 
-// 3 - 
+// 2 - // 2
+/*
+let num = 33;
+let isEven = num % 2 === 0;
+console.log(isEven); // false
+console.log(!isEven); // true
+*/
 
-// 4 - 
+// 3 - // 3
+/*
 
+let str1 = 'marker';
+let num = 'whiteboard'.length - str1.length;
+console.log(num); // 4
+let str2 = 'bootcamp';
+console.log(str2[num].toUpperCase()); // 'C' the 4th positioning is c but with uppercasing it becomes a captial 'C'
+let char = str2[num].toLowerCase(); //
+console.log(char + '!'); // 'c!'
+*/
+
+// 4 - // 4
+/*
+let sentence = 'welcome to bootcamp prep';
+let lastChar = sentence[sentence.length - 1];
+console.log(lastChar); // 'p' 
+console.log(sentence.indexOf(lastChar)); // 18 I am assuming  it is getting the first instance of 'p'
+*/
+/*
 // 5 - 
+let age = 23;
+if(age > 30){
+    console.log('older than 30');
+} else {
+    console.log('younger than 30');
+}
+
+will print out 'younger than 30'
+
+*/
 
 // 6 - 
+/*
+let str = 'Whistle Pig';
+if (str.length > 10){
+    console.log('long string');
+} else {
+    console.log('short string')
+}
+if(string[0] === 'w'){
+    console.log('starts with w');
+}
 
+will print out 'long string'
+
+*/
+/*
 // 7 - 
+let num = 30;
+if (num % 3 === 0){
+    console.log('divisible by 3');
+}
+if (num % 5 === 0){
+    console.log('divisble bby 5');
+}
 
+will print out both.
+
+*/
+
+/*
 // 8 - 
+let num = 27;
+if (num % 3 === 0){
+    console.log('divisble by 3');
+} if (num % 5 === 0){
+    console.log('divisble by 5');
+}
 
+will print out 'divisble by 3'
+
+*/
+
+/*
 // 9 -
+let str = 'Brickell Lounge';
+if (str[0] === str[0].toUpperCase()){
+    console.log('starts with a capital!');
+}
+if(str[str.length - 1] === str[str.length - 1].toUpperCase()){
+    console.log('ends with a capital!');
+}
 
+will print out 'starts with a capital!'
+
+*/
 // 10 - 
+
+
 
 
 //// Task 3 - Conditionals Practice 
