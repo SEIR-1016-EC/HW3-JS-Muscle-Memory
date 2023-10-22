@@ -1,6 +1,12 @@
 // Task 1 - Notes for JS Evaluation Predictions
 
 // List 3 expressions that surprised you or gave unexpected results, why?
+/*
+2 + 'tacos' = '2tacos' ???? why  
+5 === 5.0 = truethy, i thought this would be fasle becuase of the decimal in it?!??
+'north carolina' [0] = 'n' this gives you the letter in the 0 index postion ?? how does this work ?
+*/
+
 
 // List 2 exprsssions you felt comfortable interpreting at a glance.
 
