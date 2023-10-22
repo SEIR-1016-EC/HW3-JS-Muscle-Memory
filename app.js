@@ -364,12 +364,62 @@ if (num < 0) {
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
-
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('bootcamp prep'))
 // 2 - 
-
+function sayHello(name) {
+    let msg = 'Hello, ' + name + ', How are you?'
+    return msg
+}
+console.log(sayHello('Big Stud'))
 // 3 - 
-
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Father Michael'))
 // 4 - 
-
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Joshua The Instructor'))
 // 5 - 
-
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Brian K'))
+// 6 -
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Sean Diggs'))
+// 7 -
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Jan DiGiambattista'))
+//8 - 
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Willa'))
+//9 - 
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Sloan B'))
+//10 - 
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('Mister Softee'))
