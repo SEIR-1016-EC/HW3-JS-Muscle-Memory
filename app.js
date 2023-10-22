@@ -642,7 +642,6 @@ function fizzBuzz(max) {
     }
 }
 //10 -
-// 9 - 
 function fizzBuzz(max) {
     for (let i = 0; i < max; i += 1) {
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -651,4 +650,168 @@ function fizzBuzz(max) {
             console.log(i)
         }
     }
+}
+
+// Task 5, practice 4 (convert every even numbered letter in an array to an uppercase letter, return the revised string)
+// 1 -
+function evenCaps(sentence) {
+    let newSentence = "";
+  
+    for (let i = 0; i < sentence.length; i++) {
+      let char = sentence[i];
+  
+      if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+      } else {
+        newSentence += char;
+      }
+    }
+  
+    return newSentence;
+  }
+  // 2 -
+  function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+  }
+
+  return newSentence;
+  }
+// 3 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i=0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 4 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i <sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 5 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i <sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 6 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i <sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+//7 - 
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 8 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 9 - 
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i <sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
+}
+// 10 - 
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i <sentence.length; i++) {
+        let char = sentence[i];
+
+    if (i % 2 === 0) {
+        let capitalChar = char.toUpperCase();
+        newSentence += capitalChar;
+    } else {
+        newSentence += char;
+    }
+    }
+    return newSentence;
 }
