@@ -40,6 +40,7 @@ true && false
 // let lastChar = sentence[sentence.length -1]
 // console.log(lastChar)
 // console.log(sentence.indexOf(lastChar)) // Tricky, but I noticed it would return the first 'p' in the string
+//// Task 3 - Conditionals Practice 
 // 5 - 
 // let age = 50
 // if (age > 100) {
@@ -96,57 +97,652 @@ true && false
 //     console.log('odd')
 // }
 
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
 
-// 2 - 
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
 
-// 3 - 
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
 
-// 4 - 
+// // 2 - 
 
-// 5 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
 
-// 6 - 
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
 
-// 7 - 
+// let num = 0;
+// if (num < 0) {
+//     console.log('if');
+// } else if (num > 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
 
-// 8 - 
+// // 3 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
 
-// 9 -
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
 
-// 10 - 
+// let num = 0;
+// if (num < 0) {
+//     console.log('if');
+// } else if (num > 0){
+//     console.log('else if');
+// } else {
+//     console.log ('else');
+// }
 
+// // 4 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 5 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 6 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 7 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 8 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 9 -
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
+// // 10 - 
+// let num = 11;
+// if (num > 5) {
+//     console.log('if');
+// }
+
+// let num = 5;
+// if (num > 5) {
+//     console.log('if');
+// } else {
+//     console.log('else');
+// }
+
+// let num = 0;
+// if (num < 0) {
+//     console.log('else if');
+// } else {
+//     console.log('else');
+// }
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
 
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name){
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
+
+// function sayHello(name) {
+//     let msg = 'Hello, ' + name + '. How are you?';
+//     return msg;
+// }
+// console.log(sayHello('bootcamp prep'));
 // 2 - 
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(5));
 
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log (checkNumber(-1))
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(0));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(5));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(6));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(7));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(8));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(9));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(10));
+
+// function checkNumber(num) {
+//     if (num > 0) {
+//         return 'positive';
+//     } else if (num < 0) {
+//         return 'negative';
+//     } else {
+//         return 'zero';
+//     }
+// }
+// console.log(checkNumber(100));
 // 3 - 
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
 
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+
+// function fizzBuzz1(max) {
+//     for (let i = 0; i < max; i += 1) {
+
+//         if (i % 3 === 0 && i % 5 !== 0) {
+//             console.log(i);
+//         } else if (i % 5 === 0 && i % 3 !== 0) {
+//             console.log(i);
+//         }
+//     }    
+// }
+// console.log(fizzBuzz1(15))
 // 4 - 
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+   
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// function evenCaps(sentence) {
+//     let newSentence = "";
+
+//     for (let i = 0; i < sentence.length; i++) {
+//         let char = sentence[i];
+
+//         if(i % 2 === 0) {
+//             let capitalChar = char.toUpperCase();
+//             newSentence += capitalChar;
+//         } else {
+//             newSentence += char;
+//         }
+//     }
+//     return newSentence;
+// }
+
+// console.log(evenCaps('This is a test'))
 
 // 5 - 
 
+// I only see four code snippets in the exercise
