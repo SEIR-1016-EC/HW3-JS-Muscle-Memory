@@ -9,8 +9,9 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 *******************************************************************************/
 
 function tripler(array) {
-    // your code here
+ return array.map((x) => x * 3);
 }
+
 
 
 module.exports = tripler
