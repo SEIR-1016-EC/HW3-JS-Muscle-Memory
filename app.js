@@ -538,3 +538,77 @@ console.log(checkNumber(1))
 
 //Task 5, Practice 3
 // 1 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}
+// 1 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 1 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 2 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 3 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 4 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 5 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}// 6 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i)
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i)
+        }
+    }
+}
+// 7 -
