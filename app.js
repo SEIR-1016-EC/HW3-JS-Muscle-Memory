@@ -362,6 +362,44 @@ function sayHello(name) {
     return msg
 }
 console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg 
+}
+console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg 
+}
+console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg
+}
+console.log(sayHello('bootcamp prep'))
+
+function sayHello(name) {
+    let msg = 'Hello, ' + name + '. How are you?'
+    return msg 
+} 
+console.log(sayHello('bootcamp prep'))
+
+function
 // 2 - 
 
 // 3 - 
