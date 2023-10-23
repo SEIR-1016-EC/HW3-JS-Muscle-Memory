@@ -424,7 +424,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -438,7 +438,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -452,7 +452,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -466,7 +466,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -480,7 +480,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -494,7 +494,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -508,7 +508,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -522,7 +522,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -536,7 +536,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1){
         if (i % 3 === 0 && i % 5 !== 0) {
@@ -550,7 +550,7 @@ function fizzBuzz1(max) {
         }
     }
 }
-fizzBuzz1(100)
+fizzBuzz1(16)
 // 4 - 
 function evenCaps(sentence) {
     let newSentence = ""
