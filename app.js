@@ -134,30 +134,35 @@ if (num5 % 2 === 0) {
     console.log('odd')
 }
 
-//// Task 4 - Conditionals Muscle Memory
+// Task 4 - Conditionals Muscle Memory
 // 1 - 
+let num6 = 27
+if (num > 5) {
+    console.log('if')
+}
 
 // 2 - 
+let num7 = 23
+if (num7 > 5) {
+    console.log('if')
+} else {
+    console.log('else')
+}
 
 // 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
+let num8 = 17
+if (num8 < 0) {
+    console.log('if')
+} else if (num8 > 0) {
+    console.log('else if')
+} else[
+    console.log('else')
+]
 
 
-//// Task 5 - Function Muscle Memory
+// Task 5 - Function Muscle Memory
 // 1 - 
+
 
 // 2 - 
 
