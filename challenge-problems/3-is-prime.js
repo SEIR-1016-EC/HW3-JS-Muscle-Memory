@@ -13,6 +13,18 @@ isPrime(2017); // => true
 
 function isPrime(number) {
   // your code here
+  if (number <= 1) {
+    return false
+  }
+  let isPrime = true
+  for (i = 2; i < number; i++) {
+    console.log(i)
+    if (number % i === 0) {
+      return isPrime = false
+    }
+  }
+  return isPrime
 }
 
-module.exports = isPrime;
+console.log(isPrime(1))
+module.exports = isPrime

@@ -11,9 +11,15 @@ const object2 = {name: 'Two', location: 'San Francisco'};
 valuePair(object1, object2, 'location'); // => [ 'Remote', 'San Francisco' ]
 valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 ***********************************************************************/
-
+//@ts-check
+/**
+ * @param {object} obj1 
+ * @param {object} obj2 
+ * @param {string} key 
+ */
 function valuePair(obj1, obj2, key) {
   // your code here
 }
+console.log(valuePair({name: 'One', Location: 'Remote', age: 1}, 123, 'key'))
 
 module.exports = valuePair;

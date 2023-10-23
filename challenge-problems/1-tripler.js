@@ -10,7 +10,11 @@ tripler([4, 1, 7]); // => [ 12, 3, 21 ]
 
 function tripler(array) {
     // your code here
+    let newArray = []
+    array.forEach(element => newArray.push(element * 3))
+    return newArray;
 }
+console.log(tripler([1,2,3,4,5]))
 
 
 module.exports = tripler
