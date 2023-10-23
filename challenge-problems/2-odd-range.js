@@ -7,9 +7,11 @@ Examples:
 oddRange(13); // => [ 1, 3, 5, 7, 9, 11, 13 ]
 oddRange(6); // => [ 1, 3, 5 ]
 ******************************************************************************/
-
+let odds =[]
 function oddRange(end) {
-    // your code here
+    if(end % 2 ===1 && end > 0){
+     odds.push(end)
+    }
 }
 
 module.exports = oddRange
