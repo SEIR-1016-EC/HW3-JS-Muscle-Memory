@@ -1,4 +1,4 @@
-Task 1 - Notes for JS Evaluation Predictions
+/* Task 1 - Notes for JS Evaluation Predictions
 
 N1.  JavaScript Expressions: JavaScript expressions are evaluated from left to right 
      based on operator precedence. 
@@ -21,7 +21,7 @@ N5.  Testing and Debugging: It's a good practice to test and debug your JavaScri
      to ensure the expected results.
 
 N6.  Documentation: Refer to JavaScript documentation or resources for detailed information 
-     on operator precedence and expressions. 
+     on operator precedence and expressions.  */
 
 
 //List 3 expressions that surprised you or gave unexpected results, why?
@@ -34,12 +34,19 @@ N6.  Documentation: Refer to JavaScript documentation or resources for detailed 
 // Task 2 - Practice JS Basics
 // 1 - 4 + 4 / 2
 const result = 4 + 4 / 2;
+console.log(result);
 
-// 2 - 
+// 2 - (2 + -7) * 3
+const results = (2 + -7) * 3;
+console.log(results);
 
-// 3 - 
+// 3 - 101 % 10
+const perk = 101 % 10;
+console.log(perk);
 
-// 4 - 
+// 4 - 12 - 4 % 3
+const perk1 = 12 - 4 % 3;
+console.log(perk1);
 
 // 5 - 
 
