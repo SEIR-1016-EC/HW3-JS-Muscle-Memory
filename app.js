@@ -134,25 +134,29 @@ if (num % 2 === 0) {
 
 
 //// Task 3 - Conditionals Practice 
-// 1 - 
+//nothing should print out here 
+let num = 3; 
+if (num > 5) {
+  console.log('if');
+}
 
-// 2 - 
+//if should print out now. Else should print out if condition is false since we now have an else statment.
+let num = 17; 
+if (num > 5) {
+  console.log('if');
+} else {
+  console.log('else');
+}
 
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
+// else should print out since the two other conditons are false.
+let num = 20; 
+if (num < 20) {
+  console.log('if');
+} else if (num > 20) {
+  console.log('else if');
+} else {
+  console.log('else');
+}
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
