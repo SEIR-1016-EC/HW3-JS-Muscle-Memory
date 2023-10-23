@@ -14,6 +14,10 @@ valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 
 function valuePair(obj1, obj2, key) {
   // your code here
+  let values = [];
+  values.push(obj1[key]);
+  values.push(obj2[key]);
+  return values;
 }
 
 module.exports = valuePair;

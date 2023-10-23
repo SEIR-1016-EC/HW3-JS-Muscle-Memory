@@ -18,6 +18,17 @@ isPrime(303212); // => false
 ***********************************************************************/
 function isPrime(number) {
   // your code here
+  let numOfFactors = 0;
+  for(let i = 1; i <= number; i++){
+    if(number % i === 0){
+      numOfFactors += 1;
+    }
+  }
+  if(numOfFactors === 2){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 /***********************************************************************
@@ -33,6 +44,15 @@ firstNPrimes(4); // => [2, 3, 5, 7]
 
 function firstNPrimes(n) {
   // your code here
+  let primeNums = []
+  let counter = 1;
+  while(primeNums.length !== n){
+    if(isPrime(counter)){
+      primeNums.push(counter)
+    }
+    counter++;
+  }
+  return primeNums;
 }
 
 /***********************************************************************
@@ -47,6 +67,12 @@ sumOfNPrimes(4); // => 17
 ***********************************************************************/
 function sumOfNPrimes(n) {
   // your code here
+  let primes = firstNPrimes(n);
+  let total = 0;
+  for(let i = 0; i < primes.length; i++){
+    total += primes[i];
+  }
+  return total;
 }
 
 module.exports = { firstNPrimes, isPrime, sumOfNPrimes };
