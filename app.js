@@ -159,29 +159,64 @@ if (num < 20) {
 }
 
 //// Task 4 - Conditionals Muscle Memory
-// 1 - 
 
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
 
 
 //// Task 5 - Function Muscle Memory
-// 1 - 
+
+// so this was definitely as much syntax practice as mush as it was function pratice alot of missed curly braces and figuring out where they go! 
+ 
+  function sayHello(name) {
+  let msg = 'Hello, ' + name + '. How are you?';
+  return msg;
+}
+console.log(sayHello('Nick ')); 
+
+
+function checkNumber(num) {
+  if (num > 0) {
+    return 'positive';
+  } else if (num < 0) {
+    return 'negative';
+  } else {
+    return 'zero';
+  }
+}
+console.log(checkNumber(10));
+
+// 'postive' was returned
+
+
+function fizzBuzz1(max) {
+  for (let i = 0; i < max; i += 1) {
+
+    if (i % 3 === 0 && i % 5 !== 0) {
+      console.log(i);
+    } else if (i % 5 === 0 && i % 3 !== 0) {
+      console.log(i);
+    }
+  }
+}
+
+console.log(fizzBuzz1(56))
+
+
+function evenCaps(sentence) {
+  let newSentence = "";
+
+  for (let i = 0; i < sentence.length; i++) {
+    let char = sentence[i];
+
+    if (i % 2 === 0) {
+      let capitalChar = char.toUpperCase();
+      newSentence += capitalChar;
+    } else {
+      newSentence += char;
+    }
+  } 
+}
+console.log(evenCaps('I am attending a coding bootcamp!'))
+  
 
 // 2 - 
 
