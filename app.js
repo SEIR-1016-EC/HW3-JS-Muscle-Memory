@@ -65,7 +65,6 @@ console.log(sentence.indexOf(lastChar))
 
 // 5 - 'younger than 30'
 let age = 30
-//age > 30 ? console.log('older than 30') : console.log('younger than 30')
 if (age > 30) {
     console.log('older than 30')
 } else {
@@ -73,8 +72,14 @@ if (age > 30) {
 }
 // 6 - 'short string' 'starts with p'
 let str = 'pizza'
-str.length > 10 ? console.log('long string')
-
+if (str.length > 10 ) {
+    console.log('long string')
+} else {
+    console.log('short string')
+}
+if (str[0] === 'p' ) {
+    console.log('starts with p')
+}
 // 7 - 
 
 // 8 - 
