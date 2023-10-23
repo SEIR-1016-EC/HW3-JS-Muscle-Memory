@@ -10,6 +10,10 @@ oddRange(6); // => [ 1, 3, 5 ]
 
 function oddRange(end) {
     // your code here
+    let oddRange=[];
+    for (let i=1; i<=end; i+=2){
+        oddRange.push(i);
+    } return oddRange;
 }
-
+console.log(oddRange(9));
 module.exports = oddRange

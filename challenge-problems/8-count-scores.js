@@ -33,6 +33,22 @@ countScores(peeps); //=> { Pete: 4, Mike: 4, Dexter: 6 }
 
 function countScores(people) {
   // your code here
-}
+  const scoreCounter = {};
+  for (let person of people){
+    if(person.name in scoreCounter){
+      scoreCounter[person.name]+=person.score;
+    } else {
+      scoreCounter[person.name]=person.score;
+    }
+  }
+  return scoreCounter
+};
 
+const ppl = [
+  {name:"pete", score: 10},
+  {name: "mike", score: 10},
+  {name: "pete", score: -8},
+  {name:"dexter", score: 12}
+];
+console.log(countScores(ppl));
 module.exports = countScores;

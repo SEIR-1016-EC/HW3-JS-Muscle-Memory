@@ -13,7 +13,13 @@ cat2; // => { name: 'Whiskers', color: 'rainbow', toys: [ 'poptarts' ] }
 
 function catBuilder(name, color, toys) {
     // your code here
+    const cat={
+        name:name,
+        color:color,
+        toys:toys,
+    }
+    return cat;
 }
-
+console.log(catBuilder("Toby", "tabby", ["ball", "yarn"]));
 
 module.exports = catBuilder

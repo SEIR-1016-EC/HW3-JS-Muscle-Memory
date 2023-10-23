@@ -14,6 +14,16 @@ valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 
 function valuePair(obj1, obj2, key) {
   // your code here
+  return [obj1[key], obj2[key]];
+};
+const object1= {
+  name:"one",
+  location:"San-Diego",
+};
+const object2= {
+  name:"two",
+  location:"Boston",
 }
+console.log(valuePair(object1, object2, location));
 
 module.exports = valuePair;

@@ -11,6 +11,12 @@ doesKeyExist(obj1, 'name'); // => false
 ***********************************************************************/
 function doesKeyExist(obj, key) {
   // your code here
+  return key in obj;
 }
-
+const obj3= {
+  company:"general assembly",
+  course:"Software Engineering Immersive",
+};
+console.log(doesKeyExist(obj3,"name"));
+console.log(doesKeyExist(obj3,"course"));
 module.exports = doesKeyExist;
