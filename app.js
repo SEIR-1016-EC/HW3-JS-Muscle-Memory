@@ -131,12 +131,222 @@ if (num4 % 2 === 0) {
 }
 
 //// Task 4 - Conditionals Muscle Memory
-// 1 - 
+// 1 -
+let num5 = 11;
+if (num5 > 5) {
+    console.log('if');
+}
+
+let num6 = 11;
+if (num6 > 5) {
+    console.log('if');
+}
+
+let num7 = 11;
+if (num7 > 5) {
+    console.log('if');
+}
+
+let num8 = 11;
+if (num8 > 5) {
+    console.log('if');
+}
+
+let num9 = 11;
+if (num9 > 5) {
+    console.log('if');
+}
+
+let num10 = 11;
+if (num10 > 5) {
+    console.log('if');
+}
+
+let num11 = 11;
+if (num11 > 5) {
+    console.log('if');
+}
+
+let num12 = 11;
+if (num12 > 5) {
+    console.log('if');
+}
+
+let num13 = 11;
+if (num13 > 5) {
+    console.log('if');
+}
+
+let num14 = 11;
+// let num14 = 3; -> testing another number
+if (num14 > 5) {
+    console.log('if');
+}
 
 // 2 - 
+let num15 = 5;
+if (num15 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num16 = 5;
+if (num16 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num17 = 5;
+if (num17 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num18 = 5;
+if (num18 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num19 = 5;
+if (num19 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num20 = 5;
+if (num20 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num21 = 5;
+if (num21 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num22 = 5;
+if (num22 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num23 = 5;
+if (num23 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+
+let num24 = 5;
+// let num24 = 10; -> testing another number
+if (num24 > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
 
 // 3 - 
+let num25 = 0;
+if (num25 < 0) {
+    console.log('if');
+} else if (num25 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
 
+let num26 = 0;
+if (num26 < 0) {
+    console.log('if');
+} else if (num26 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num27 = 0;
+if (num27 < 0) {
+    console.log('if');
+} else if (num27 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num28 = 0;
+if (num28 < 0) {
+    console.log('if');
+} else if (num28 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num29 = 0;
+if (num29 < 0) {
+    console.log('if');
+} else if (num29 > 0) {
+    console.log('else if');
+} else {
+    console.log('else')
+}
+
+let num30 = 0;
+if (num30 < 0) {
+    console.log('if');
+} else if (num30 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num31 = 0;
+if (num31 < 0) {
+    console.log('if');
+} else if (num31 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num32 = 0;
+if (num32 < 0) {
+    console.log('if');
+} else if (num32 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num33 = 0;
+if (num33 < 0) {
+    console.log('if');
+} else if (num33 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+
+let num34 = 0;
+// let num34 = 15; // -> testing another number
+if (num34 < 0) {
+    console.log('if');
+} else if (num34 > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+ 
 // 4 - 
 
 // 5 - 
