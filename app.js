@@ -21,19 +21,19 @@ console.log(idx); // ? - 10
 
 // 2 - 
 
-//let num = 33;
-//let isEven = num % 2 === 0;
-//console.log(isEven); // ? false
-//console.log(!isEven); // ? true
+let num0 = 33;
+let isEven = num0 % 2 === 0;
+console.log(isEven); // ? false
+console.log(!isEven); // ? true
 
 // 3 - 
 
 let str1 = 'marker';
-let num = 'whiteboard'.length - str1.length;
-console.log(num); // ? 4
+let numb = 'whiteboard'.length - str1.length;
+console.log(numb); // ? 4
 let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // ? 'C'
-let char = str2[num].toLowerCase(); // ? 'c'
+console.log(str2[numb].toUpperCase()); // ? 'C'
+let char = str2[numb].toLowerCase(); // ? 'c'
 console.log(char + '!'); // ? 'c!'
 
 // 4 - 
@@ -42,6 +42,27 @@ let sentence = 'welcome to bootcamp prep';
 let lastChar = sentence[sentence.length - 1];
 console.log(lastChar); // ? 'p'
 console.log(sentence.indexOf(lastChar)); // ? 18
+
+// 5 - 
+
+// 6 - 
+
+// 7 - 
+
+// 8 - 
+
+// 9 -
+
+// 10 - 
+
+//// Task 3 - Conditionals Practice 
+// 1 - 
+
+// 2 - 
+
+// 3 - 
+
+// 4 - 
 
 // 5 - 
 
@@ -121,106 +142,234 @@ if (num5 % 2 === 0) {
 
 // -44 should print 'negative' and 'even' on 2 separate lines
 
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
-
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-    -
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-    
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
-
-    let num = 11;
-    if (num > 5) {
-        console.log('if');
-    }
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if'):
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
 // 2 - 
 
-    let num = 5;
-    if (num > 5) {
-        console.log('if');
-    } else {
-        console.log('else');
-    }
-
-    
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num + 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    consol.log('else');
+}
+``` 
 
 // 3 - 
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
 // 4 - 
 
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 // 5 - 
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; //feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
 // 6 - 
 
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
+
 // 7 - 
 
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 // 8 - 
+
+```
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
 // 9 -
 
+```js
+let num = 11; // feel free to change the value of this variable
+
+    if (num > 5) {
+        console.log('if');
+    }
+
+
 // 10 - 
+
+let num = 11;
+if (num > 5) {
+    console.log('if');
+}
 
 
 //// Task 5 - Function Muscle Memory
