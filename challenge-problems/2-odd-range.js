@@ -9,7 +9,9 @@ oddRange(6); // => [ 1, 3, 5 ]
 ******************************************************************************/
 
 function oddRange(end) {
-    // your code here
+    for (let i = 1; i <= end; i ++){
+        
+    }
 }
 
 module.exports = oddRange

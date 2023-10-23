@@ -491,4 +491,277 @@ function checkNumber(num) {
 }
 console.log(checkNumber(-0));
 
+// 3 
+function fizzBuzz1(max) {
+    for (let i = 0; i  < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+fizzBuzz1(70)
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i !== 5) {
+            console.log(i);
+        } else if (i % 5 === 0 && i !== 3) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && 1 % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0) {
+            console.log(i);
+        }
+    }
+} 
+
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        if (i % 3 === 0 && i % 5 !== 0) {
+            console.log(i);
+        } else if (i % 5 === 0 && i % 3 !== 0) {
+            console.log(i);
+        }
+    }
+}
+
 // 3 -
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+console.log(evenCaps("Hey there buddy boy!"))
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+        
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    }
+
+    return newSentence;
+}
+
+function evenCaps(sentence) {
+    let newSentence = "";
+
+    for (let i = 0; i < sentence.length; i++) {
+        let char = sentence[i];
+
+        if (i % 2 === 0) {
+            let capitalChar = char.toUpperCase();
+            newSentence += capitalChar;
+        } else {
+            newSentence += char;
+        }
+    } 
+
+    return newSentence;
+}
