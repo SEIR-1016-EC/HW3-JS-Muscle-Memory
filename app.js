@@ -79,6 +79,7 @@ let sentence = 'welcome to bootcamp prep';
 let lastChar = sentence[sentence.length - 1]
 console.log(lastChar)
 console.log(sentence.indexOf(lastChar))
+//// Task 3 - Conditionals Practice 
 // 5 - 
 let age = 30
 if (age > 30) {
@@ -135,27 +136,6 @@ if (num4 % 2 === 0) {
 } else {
     console.log('odd')
 }
-
-
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
 // 10 - 
 
 //// Task 4 - Conditionals Muscle Memory
@@ -194,6 +174,7 @@ if (num > 5) {
     console.log('if');
 }
 
+// 2 - 
 num = 5
 if (num > 5) {
     console.log ('if');
@@ -254,7 +235,7 @@ if (num > 5) {
 } else {
     console.log('else');
 }
-
+// 3 - 
 num = 0
 if (num < 0) {
     console.log('if');
@@ -336,33 +317,178 @@ if (num < 0) {
     console.log('else')
 }
 
-// 2 - 
-
-// 3 - 
-
-// 4 - 
-
-// 5 - 
-
-// 6 - 
-
-// 7 - 
-
-// 8 - 
-
-// 9 -
-
-// 10 - 
-
 
 //// Task 5 - Function Muscle Memory
-// 1 - 
+// 1 -
+function sayHello(name) {
+    let msg = 'Hello ' + '. How are you?';
+    return msg;
+}
+console.log(sayHello('bootcamp prep'));
 
-// 2 - 
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Isaac'));
 
-// 3 - 
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg
+}
+console.log(sayHello('Brakha'));
 
-// 4 - 
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Goaterly'));
 
-// 5 - 
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?'
+    return msg;
+}
+console.log(sayHello('Kabra'))
 
+function sayHello() {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Goat'));
+
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('isaac'));
+
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Edward'))
+
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Eduardo'));
+
+function sayHello(name) {
+    let msg = 'Hello ' + name + '. How are you?';
+    return msg;
+}
+console.log(sayHello('Isaac'));
+
+// 2 -
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(5));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(12));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(-23));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num > 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(0));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(-100));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(-57));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(33));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(89));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(-97));
+
+function checkNumber(num) {
+    if (num > 0) {
+        return 'positive';
+    } else if (num < 0) {
+        return 'negative';
+    } else {
+        return 'zero';
+    }
+}
+console.log(checkNumber(-0));
+
+// 3 -
