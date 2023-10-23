@@ -2,7 +2,6 @@
 
 // List 1: expression you are still 'shaky' on, why?
 
-
 // List 2: expressions you felt comfortable interpreting at a glance.
 /* 4 + 4 / 2
 (2 + -7) * 3
@@ -42,133 +41,167 @@ true && !(false || false)
  */
 
 // Task 2 - Practice JS Basics
-// 1 - 
-let idx = 'abcde'.indexOf('D');
-idx = idx + 11;
-console.log(idx); // 10
-idx * 2;
-console.log(idx); // 20 - wrong! I didn't pay attention here and thought the calculation on line 49 would automatically store the new value.
+// 1 -
+let idx = 'abcde'.indexOf('D')
+idx = idx + 11
+console.log(idx) // 10
+idx * 2
+console.log(idx) // 20 - wrong! I didn't pay attention here and thought the calculation on line 49 would automatically store the new value.
 
-// 2 - 
-let num = 33;
-let isEven = num % 2 === 0;
-console.log(isEven); // false
-console.log(!isEven); // true
+// 2 -
+let num = 33
+let isEven = num % 2 === 0
+console.log(isEven) // false
+console.log(!isEven) // true
 
-// 3 - 
-let str1 = 'marker';
-let num2 = 'whiteboard'.length - str1.length;
-console.log(num2); // 4
-let str2 = 'bootcamp';
-console.log(str2[num2].toUpperCase()); // C
-let char = str2[num2].toLowerCase(); // c
-console.log(char + '!'); // c!
+// 3 -
+let str1 = 'marker'
+let num2 = 'whiteboard'.length - str1.length
+console.log(num2) // 4
+let str2 = 'bootcamp'
+console.log(str2[num2].toUpperCase()) // C
+let char = str2[num2].toLowerCase() // c
+console.log(char + '!') // c!
 
-// 4 - 
-let sentence = 'welcome to bootcamp prep';
-let lastChar = sentence[sentence.length - 1];
-console.log(lastChar); // p
-console.log(sentence.indexOf(lastChar)); // 18
+// 4 -
+let sentence = 'welcome to bootcamp prep'
+let lastChar = sentence[sentence.length - 1]
+console.log(lastChar) // p
+console.log(sentence.indexOf(lastChar)) // 18
 
+//Task 3 - Conditionals Practice
 
-//Task 3 - Conditionals Practice 
-
-// 5 - 
-let age = 80;
+// 5 -
+let age = 80
 if (age > 30) {
-    console.log('older than 30')
+	console.log('older than 30')
 } else {
-    console.log('younger than 30')
+	console.log('younger than 30')
 }
 
 // 6 -
 let str = 'cheeeeeeeeese'
 if (str.length > 10) {
-    console.log('long string');
+	console.log('long string')
 } else {
-    console.log('short string')
+	console.log('short string')
 }
 if (str[0] === 'p') {
-    console.log('starts with p')
+	console.log('starts with p')
 }
 
-// 7 - 
+// 7 -
 let num3 = 20
 if (num3 % 3 === 0) {
-    console.log('divisible by 3')
+	console.log('divisible by 3')
 } else if (num3 % 5 === 0) {
-    console.log('divisible by 5')
+	console.log('divisible by 5')
 }
 
-// 8 - 
+// 8 -
 let num4 = 30
 if (num4 % 3 === 0) {
-    console.log('divisible by 3')
+	console.log('divisible by 3')
 }
 if (num4 % 5 === 0) {
-    console.log('divisible by 5')
+	console.log('divisible by 5')
 }
 
 // 9 -
 let str3 = 'HalloweeN'
 if (str3[0] === str3[0].toUpperCase()) {
-    console.log('starts with a capital!')
+	console.log('starts with a capital!')
 }
 if (str3[str3.length - 1] === str3[str3.length - 1].toUpperCase()) {
-    console.log('ends with a capital!')
+	console.log('ends with a capital!')
 }
 
-
-// 10 - 
+// 10 -
 let num5 = -13
 if (num5 > 0) {
-    console.log('positive')
+	console.log('positive')
 } else if (num5 < 0) {
-    console.log('negative')
+	console.log('negative')
 } else {
-    console.log(0)
+	console.log(0)
 }
 if (num5 % 2 === 0) {
-    console.log('even')
+	console.log('even')
 } else {
-    console.log('odd')
+	console.log('odd')
 }
 
 // Task 4 - Conditionals Muscle Memory
-// 1 - 
+// 1 -
 let num6 = 27
 if (num > 5) {
-    console.log('if')
+	console.log('if')
 }
 
-// 2 - 
+// 2 -
 let num7 = 23
 if (num7 > 5) {
-    console.log('if')
+	console.log('if')
 } else {
-    console.log('else')
+	console.log('else')
 }
 
-// 3 - 
+// 3 -
 let num8 = 17
 if (num8 < 0) {
-    console.log('if')
+	console.log('if')
 } else if (num8 > 0) {
-    console.log('else if')
-} else[
-    console.log('else')
-]
-
+	console.log('else if')
+} else [console.log('else')]
 
 // Task 5 - Function Muscle Memory
-// 1 - 
+// 1 -
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('my dear friend'))
 
+// 2 -
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(-13))
 
-// 2 - 
+// 3 -
+function fizzBuzz1(max) {
+    for (let i = 0; i < max; i += 1) {
+        
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+console.log(fizzBuzz1(2))
 
-// 3 - 
+// 4 -
+function evenCaps(sentence) {
+	let newSentence = ''
 
-// 4 - 
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
 
-// 5 - 
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+console.log(evenCaps('Hey brother!'))
 
