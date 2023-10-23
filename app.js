@@ -81,6 +81,9 @@ if (str.length > 10) {
 } else {
     console.log('short string');
 }
+if (str[0] === 'p') {
+    console.log('starts with p')
+}
 
 // 7 - My predictions before running code: 'divisible by 3'
 let num2 = 15; // -> used num2 because num was used above
