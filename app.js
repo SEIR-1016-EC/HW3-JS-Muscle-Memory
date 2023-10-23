@@ -2,9 +2,21 @@
 
 // List 3 expressions that surprised you or gave unexpected results, why?
 
+1. 2.5 * 'fish' ..... NaN 
+2. 5 >= 11 ..... False
+3. 'san grancisco'[2 * 3]
+
+
 // List 2 exprsssions you felt comfortable interpreting at a glance.
+1. 'engineering'.indexOf('r') > -1
+2. 'science'.indexOf('x') === -1
+
 
 // List 1 expression you are still 'shaky' on, why?
+1.  'engineering'.indexOf('r') > -1
+2.  'science'.indexOf('x') === -1
+
+
 
 
 
