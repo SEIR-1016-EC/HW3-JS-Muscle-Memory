@@ -20,28 +20,48 @@
 
 
 
-
-
 // Task 2 - Practice JS Basics
 // 1 - 
 
+let idx = 'abcde'.indexOf('D');
+idx = idx + 11;
+
+console.log(idx);
+
+idx * 2;
+console.log(idx); 
+
+
 // 2 - 
 
+let num = 33;
+let isEven = num % 2 === 0;
+console.log(isEven); 
+
+console.log(!isEven);
+
+
 // 3 - 
+let str1 = 'marker';
+let num = 'whiteboard'.length - str1.length;
 
-// 4 - 
+console.log(num); 
 
-// 5 - 
+let str2 = 'bootcamp';
+console.log(str2[num].toUpperCase());
 
-// 6 - 
+let char = str2[num].toLowerCase(); 
+console.log(char + '!'); 
 
-// 7 - 
+// 4 -  
+let sentence = 'welcome to bootcamp prep';
+let lastChar = sentence[sentence.length - 1];
 
-// 8 - 
+console.log(lastChar); // ?
 
-// 9 -
+console.log(sentence.indexOf(lastChar)); 
 
-// 10 - 
+
 
 
 //// Task 3 - Conditionals Practice 
