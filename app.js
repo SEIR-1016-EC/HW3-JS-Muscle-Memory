@@ -358,19 +358,55 @@ if (num < 0) {
 
 ```js
 let num = 11; // feel free to change the value of this variable
-
-    if (num > 5) {
-        console.log('if');
-    }
-
-
-// 10 - 
-
-let num = 11;
 if (num > 5) {
     console.log('if');
 }
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num = 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
+// 10 - 
+
+```js
+let num = 11; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+}
+```
+```js
+let num = 5; // feel free to change the value of this variable
+if (num > 5) {
+    console.log('if');
+} else {
+    console.log('else');
+}
+```
+```js
+let num + 0; // feel free to change the value of this variable
+if (num < 0) {
+    console.log('if');
+} else if (num > 0) {
+    console.log('else if');
+} else {
+    console.log('else');
+}
+```
 
 //// Task 5 - Function Muscle Memory
 // 1 - 
