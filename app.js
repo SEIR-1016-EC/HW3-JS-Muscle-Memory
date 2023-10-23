@@ -64,17 +64,68 @@ console.log(sentence.indexOf(lastChar)); // -> returned 18, which I believe is b
 
 // 4 - 
 
-// 5 - 
+// 5 - My predictions before running code: 'younger than 30'
+let age = 30;
+// let age = 40; -> testing different number
+if (age > 30) {
+    console.log('older than 30');
+} else {
+    console.log('younger than 30');
+}
 
-// 6 - 
+// 6 - My predictions before running code: short string
+let str = 'pizza';
+// let str = 'pineapple pizza' -> testing different string
+if (str.length > 10) {
+    console.log('long string');
+} else {
+    console.log('short string');
+}
 
-// 7 - 
+// 7 - My predictions before running code: 'divisible by 3'
+let num2 = 15; // -> used num2 because num was used above
+// let num2 = 19; -> testing different number
+if (num2 % 3 === 0) {
+    console.log('divisible by 3');
+} else if (num2 % 5 === 0) {
+    console.log('divisible by 5');
+}
 
-// 8 - 
+// 8 - My predictions before running code: 'divisible by 3'; 'divisible by 5'
+let num3 = 15; // -> used num3 because num was used above
+//let num3 = 25; -> testing different number
+if (num3 % 3 === 0) {
+    console.log('divisible by 3');
+}
+if (num3 % 5 === 0) {
+    console.log('divisible by 5');
+}
 
-// 9 -
+// 9 - My predictions before running code: 'starts with a capital!';
+let str3 = 'General Assembly'; // -> used str3 because str was used above
+// let str3 = 'WOW' -> testing with another string
+if (str3[0] === str3[0].toUpperCase()) {
+    console.log('starts with a capital!');
+}
+if (str3[str3.length - 1] === str3[str3.length -1].toUpperCase()) {
+    console.log('ends with a capital!');
+}
 
-// 10 - 
+// 10 - My predictions before running code: 'negative'; 'even'
+let num4 = -44; // -> used num4 because num was used above
+// let num4 = 31; // -> testing another number
+if (num4 > 0) {
+    console.log('positive');
+} else if (num4 < 0) {
+    console.log('negative');
+    }  else {
+        console.log(0);
+    }
+if (num4 % 2 === 0) {
+    console.log('even');
+} else {
+    console.log('odd');
+}
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
