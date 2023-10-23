@@ -20,26 +20,27 @@ true && false
 // 1 - 
 // let idx = 'abcde'.indexOf('D')
 // idx = idx + 11
+// console.log(idx); // 10
 // idx * 2
-//console.log(idx)
+// console.log(idx) // 10
 // 2 - 
 // let num = 33
 // let isEven = num % 2 === 0
-// console.log(isEven)
-// console.log(!isEven)
+// console.log(isEven) // false
+// console.log(!isEven) // true
 // 3 - 
 // let str1 = 'marker'
 // let num = 'whiteboard'.length - str1.length
-// console.log(num)
+// console.log(num) // 4
 // let str2 = 'bootcamp'
-// console.log(str2[num].toUpperCase())
-// let char = str2[num].toLowerCase()
-// console.log(char + '!')
+// console.log(str2[num].toUpperCase()) // C
+// let char = str2[num].toLowerCase() // c
+// console.log(char + '!') // c!
 // 4 - 
 // let sentence = 'welcome to bootcamp prep'
 // let lastChar = sentence[sentence.length -1]
-// console.log(lastChar)
-// console.log(sentence.indexOf(lastChar)) // Tricky, but I noticed it would return the first 'p' in the string
+// console.log(lastChar) // 'p'
+// console.log(sentence.indexOf(lastChar)) // Tricky, but I noticed it would return 18, the first 'p' in the string
 //// Task 3 - Conditionals Practice 
 // 5 - 
 // let age = 50
@@ -47,7 +48,7 @@ true && false
 //     console.log('looking good for your age')
 // } else {
 //     console.log('lol not even a century yet')
-// }
+// } // lol not even a century yet
 // 6 - 
 // let str = 'please sir, I want some more'
 // if(str.length > 10) {
@@ -57,14 +58,14 @@ true && false
 // }
 // if (str[0] === 'p') {
 //     console.log('starts with p')
-// }
+// } // long string, starts with p
 // 7 - 
 // let num = 333
 // if (num % 3 === 0) {
 //     console.log('divisible by 3')
 // } else if (num % 5 === 0) {
 //     console.log('divisible by 5')
-// }
+// } // divisible by 3
 // 8 - 
 // let num = 300
 // if (num % 3 === 0){
@@ -72,7 +73,7 @@ true && false
 // }
 // if (num % 5 === 0) {
 //     console.log('divisible by 5')
-// }
+// } // divisible by 3, divisible by 5
 // 9 -
 // let str = 'General AssemblY'
 // if (str[0] === str[0].toUpperCase()) {
@@ -80,7 +81,7 @@ true && false
 // }
 // if (str[str.length - 1] === str[str.length - 1].toUpperCase()){
 //     console.log('ends with a capital!')
-// }
+// } // starts with a capital!, ends with a capital!
 
 // 10 - 
 // let num = 43
@@ -95,7 +96,7 @@ true && false
 //     console.log('even')
 // } else {
 //     console.log('odd')
-// }
+// } //positive, odd
 
 
 //// Task 4 - Conditionals Muscle Memory
