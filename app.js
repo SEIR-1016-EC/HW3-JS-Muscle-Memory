@@ -50,18 +50,18 @@ idx * 2;
 console.log(idx); // 20 - wrong! I didn't pay attention here and thought the calculation on line 49 would automatically store the new value.
 
 // 2 - 
-/*let num = 33;
+let num = 33;
 let isEven = num % 2 === 0;
 console.log(isEven); // false
 console.log(!isEven); // true
-*/
+
 // 3 - 
 let str1 = 'marker';
-let num = 'whiteboard'.length - str1.length;
-console.log(num); // 4
+let num2 = 'whiteboard'.length - str1.length;
+console.log(num2); // 4
 let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // C
-let char = str2[num].toLowerCase(); // c
+console.log(str2[num2].toUpperCase()); // C
+let char = str2[num2].toLowerCase(); // c
 console.log(char + '!'); // c!
 
 // 4 - 
@@ -71,26 +71,68 @@ console.log(lastChar); // p
 console.log(sentence.indexOf(lastChar)); // 18
 
 
-//// Task 3 - Conditionals Practice 
-// 1 - 
-
-// 2 - 
-
-// 3 - 
-
-// 4 - 
+//Task 3 - Conditionals Practice 
 
 // 5 - 
+let age = 80;
+if (age > 30) {
+    console.log('older than 30')
+} else {
+    console.log('younger than 30')
+}
 
-// 6 - 
+// 6 -
+let str = 'cheeeeeeeeese'
+if (str.length > 10) {
+    console.log('long string');
+} else {
+    console.log('short string')
+}
+if (str[0] === 'p') {
+    console.log('starts with p')
+}
 
 // 7 - 
+let num3 = 20
+if (num3 % 3 === 0) {
+    console.log('divisible by 3')
+} else if (num3 % 5 === 0) {
+    console.log('divisible by 5')
+}
 
 // 8 - 
+let num4 = 30
+if (num4 % 3 === 0) {
+    console.log('divisible by 3')
+}
+if (num4 % 5 === 0) {
+    console.log('divisible by 5')
+}
 
 // 9 -
+let str3 = 'HalloweeN'
+if (str3[0] === str3[0].toUpperCase()) {
+    console.log('starts with a capital!')
+}
+if (str3[str3.length - 1] === str3[str3.length - 1].toUpperCase()) {
+    console.log('ends with a capital!')
+}
+
 
 // 10 - 
+let num5 = -13
+if (num5 > 0) {
+    console.log('positive')
+} else if (num5 < 0) {
+    console.log('negative')
+} else {
+    console.log(0)
+}
+if (num5 % 2 === 0) {
+    console.log('even')
+} else {
+    console.log('odd')
+}
 
 //// Task 4 - Conditionals Muscle Memory
 // 1 - 
