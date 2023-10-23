@@ -17,8 +17,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bignumber.js": "^9.1.2",
     "chai": "^4.3.0",
-    "mocha": "^8.2.1",
+    "mocha": "^10.2.0",
     "mocha-sinon": "^2.1.2",
     "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0"

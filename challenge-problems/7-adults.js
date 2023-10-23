@@ -16,7 +16,12 @@ adults(ppl); // => [ 'Khalid Robinson', 'Ariel Winter', 'Post Malone' ]
 ***********************************************************************/
 
 function adults(people) {
-  // your code here
+  const out = []
+  for (let i of people) {
+    if (i.age > 18) out.push(i.name)
+  }
+  return out
 }
+
 
 module.exports = adults

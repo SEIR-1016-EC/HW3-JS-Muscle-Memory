@@ -9,7 +9,13 @@ oddRange(6); // => [ 1, 3, 5 ]
 ******************************************************************************/
 
 function oddRange(end) {
-    // your code here
+    const nums = []
+    let i = 0
+    while (i <= end) {
+        if (i % 2) nums.push(i)
+        i++
+    }
+    return nums
 }
 
 module.exports = oddRange

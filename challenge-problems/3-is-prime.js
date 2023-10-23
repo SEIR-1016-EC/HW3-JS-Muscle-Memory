@@ -12,7 +12,15 @@ isPrime(2017); // => true
 ***************************************************************************/
 
 function isPrime(number) {
-  // your code here
+  if (number < 0 ||
+    isNaN(parseInt(number)) ||
+    (number + 'i').includes('.')) {
+      return false
+    }
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) return false
+  }
+  return true
 }
 
 module.exports = isPrime;

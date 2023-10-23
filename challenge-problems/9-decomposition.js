@@ -16,9 +16,15 @@ isPrime(1693); // => true
 isPrime(15); // => false
 isPrime(303212); // => false
 ***********************************************************************/
+
 function isPrime(number) {
-  // your code here
+  for (let i = 2; i <= number / 2; i++) {
+    if (!(number % i)) return false
+  }
+  return true
 }
+
+// console.log(isPrime(3109047959)); // => true
 
 /***********************************************************************
 Using the `isPrime` function you made, write a function `firstNPrimes(n)`
@@ -32,7 +38,11 @@ firstNPrimes(4); // => [2, 3, 5, 7]
 ***********************************************************************/
 
 function firstNPrimes(n) {
-  // your code here
+  const primes = []
+  for (let i = 2; i <= 1000 && primes.length < n; i++) {
+    if (isPrime(i)) primes.push(i)
+  }
+  return primes
 }
 
 /***********************************************************************
@@ -46,7 +56,12 @@ sumOfNPrimes(1); // => 2
 sumOfNPrimes(4); // => 17
 ***********************************************************************/
 function sumOfNPrimes(n) {
-  // your code here
+  let sum = 0
+  const primes = firstNPrimes(n)
+  for (let i in primes) {
+    sum += primes[i];
+  }
+  return sum
 }
 
 module.exports = { firstNPrimes, isPrime, sumOfNPrimes };
