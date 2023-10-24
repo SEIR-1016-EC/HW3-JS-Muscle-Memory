@@ -23,60 +23,78 @@
 
 // Task 2 - Practice JS Basics
 // 1 - 
-    
-let idx = 'abcde'.indexOf('D'); // No 'D' in the string will return -1
-idx = idx + 11;
-console.log(idx); // 10
-idx * 2;
-console.log(idx); // 20
-
+console.log(idx); // 10    
 // 2 - 
-
-let num = 33;
-let isEven = num % 2 === 0;
-console.log(isEven); // false
-console.log(!isEven); // true
-
+console.log(idx); // 20
 // 3 - 
-
-let str1 = 'marker';
-//let num = 'whiteboard'.length - str1.length;
-console.log(num); // 4
-let str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // C
-let char = str2[num].toLowerCase(); // c
-console.log(char + '!'); // c!
-
+console.log(isEven); // false
 // 4 - 
-
-let sentence = 'welcome to bootcamp prep';
-let lastChar = sentence[sentence.length - 1];
-console.log(lastChar); // p
-console.log(sentence.indexOf(lastChar)); // 19
-
+console.log(!isEven); // true
 // 5 - 
-
+console.log(num); // 4
 // 6 - 
-
+console.log(str2[num].toUpperCase()); // C
 // 7 - 
-
+let char = str2[num].toLowerCase(); // c
 // 8 - 
-
+console.log(char + '!'); // c!
 // 9 -
-
+console.log(lastChar); // p
 // 10 - 
-
+console.log(sentence.indexOf(lastChar)); // 19
 
 //// Task 3 - Conditionals Practice 
 // 1 - 
+let age = 30; 
+if (age > 30) {
+  console.log('older than 30');
+} else {
+  console.log('younger than 30');
+
+// The console.log output is 'younder than 30'
 
 // 2 - 
+let str = 'pizza'; 
+if (str.length > 10) {
+  console.log('long string');
+} else {
+  console.log('short string');
+}
+if (str[0] === 'p') {
+  console.log('starts with p');
+}
 
+// The console.log output is: short string and start with p
+                              
 // 3 - 
+let num = 15; 
+if (num % 3 === 0) {
+  console.log('divisible by 3');
+} else if (num % 5 === 0) {
+  console.log('divisible by 5');
+}
+// The console.log output is: devisible by 3
 
 // 4 - 
+let num = 15;
+if (num % 3 === 0) {
+  console.log('divisible by 3');
+}
+if (num % 5 === 0) {
+  console.log('divisible by 5');
+}
+
+// The console.log output is: divisible by 3 and divisible by 5
 
 // 5 - 
+let str = 'General Assembly'; 
+if (str[0] === str[0].toUpperCase()) {
+  console.log('starts with a capital!');
+}
+if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
+  console.log('ends with a capital!');
+
+// The console.log output is: starts with a capital!
 
 // 6 - 
 
