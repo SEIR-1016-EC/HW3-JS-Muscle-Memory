@@ -77,7 +77,7 @@ if (age > 30) {
 	console.log('older than 30')
 } else {
 	console.log('younger than 30')
-}
+} // age 80 is greater than 30 so it will print 'older than 30'
 
 // 6 -
 let str = 'cheeeeeeeeese'
@@ -88,7 +88,7 @@ if (str.length > 10) {
 }
 if (str[0] === 'p') {
 	console.log('starts with p')
-}
+} // str here has a length of 13 characters which is greater than 10 so it will print 'long string' and the second if statement will evaluate false because the first char is c and not p
 
 // 7 -
 let num3 = 20
@@ -96,7 +96,7 @@ if (num3 % 3 === 0) {
 	console.log('divisible by 3')
 } else if (num3 % 5 === 0) {
 	console.log('divisible by 5')
-}
+} // the remainder of 20 / 3 is not 0 so the first if will evaluate to false. The remainder of 20 / 5 is 0 so the console will print 'divisible by 5'
 
 // 8 -
 let num4 = 30
@@ -105,31 +105,31 @@ if (num4 % 3 === 0) {
 }
 if (num4 % 5 === 0) {
 	console.log('divisible by 5')
-}
+} // here both if statements will run and both will return true and print the message.
 
 // 9 -
 let str3 = 'HalloweeN'
-if (str3[0] === str3[0].toUpperCase()) {
+if (str3[0] === str3[0].toUpperCase()) { // will evaluate true.
 	console.log('starts with a capital!')
 }
-if (str3[str3.length - 1] === str3[str3.length - 1].toUpperCase()) {
+if (str3[str3.length - 1] === str3[str3.length - 1].toUpperCase()) { //will evaluate true
 	console.log('ends with a capital!')
-}
+} // both if statements will run. 
 
 // 10 -
 let num5 = -13
-if (num5 > 0) {
+if (num5 > 0) { // evaluates to false
 	console.log('positive')
-} else if (num5 < 0) {
+} else if (num5 < 0) { // evaluates to true
 	console.log('negative')
 } else {
 	console.log(0)
 }
-if (num5 % 2 === 0) {
+if (num5 % 2 === 0) { // evaluates to false so the else code block will run
 	console.log('even')
-} else {
+} else { 
 	console.log('odd')
-}
+}// both if statements will run
 
 // Task 4 - Conditionals Muscle Memory
 // 1 -
