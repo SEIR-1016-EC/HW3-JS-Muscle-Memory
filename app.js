@@ -134,25 +134,216 @@ if (num5 % 2 === 0) {
 // Task 4 - Conditionals Muscle Memory
 // 1 -
 let num6 = 27
-if (num > 5) {
+if (num6 > 5) {
+	console.log('if')
+}
+
+let num62 = 2
+if (num62 > 6) {
+	console.log('if')
+}
+
+let num63 = -12
+if (num63 > 6) {
+	console.log('if')
+}
+
+let num64 = 543
+if (num64 > 6) {
+	console.log('if')
+}
+
+let num65 = 999
+if (num65 > 6) {
+	console.log('if')
+}
+
+let num66 = 2
+if (num66 > 6) {
+	console.log('if')
+}
+
+let num67 = -13
+if (num67 > 6) {
+	console.log('if')
+}
+
+let num68 = 30
+if (num68 > 6) {
+	console.log('if')
+}
+
+let num69 = 0
+if (num69 > 6) {
+	console.log('if')
+}
+
+let num61 = 13
+if (num61 > 6) {
 	console.log('if')
 }
 
 // 2 -
-let num7 = 23
-if (num7 > 5) {
+let num71 = 23
+if (num71 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num72 = 11
+if (num72 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num73 = 27
+if (num73 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num74 = 43
+if (num74 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num75 = 0
+if (num75 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num76 = -96
+if (num76 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num77 = -4
+if (num77 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num78 = 12
+if (num78 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num79 = 88
+if (num79 > 5) {
+	console.log('if')
+} else {
+	console.log('else')
+}
+
+let num70 = 24
+if (num70 > 5) {
 	console.log('if')
 } else {
 	console.log('else')
 }
 
 // 3 -
-let num8 = 17
-if (num8 < 0) {
+let num80 = 17
+if (num80 < 0) {
 	console.log('if')
-} else if (num8 > 0) {
+} else if (num80 > 0) {
 	console.log('else if')
-} else [console.log('else')]
+} else {
+	console.log('else')
+}
+
+let num81 = 56
+if (num81 < 0) {
+	console.log('if')
+} else if (num81 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num82 = -78
+if (num82 < 0) {
+	console.log('if')
+} else if (num82 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num83 = -43
+if (num83 < 0) {
+	console.log('if')
+} else if (num83 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num84 = -1
+if (num84 < 0) {
+	console.log('if')
+} else if (num84 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num85 = -3
+if (num85 < 0) {
+	console.log('if')
+} else if (num85 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num86 = 98
+if (num86 < 0) {
+	console.log('if')
+} else if (num86 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num87 = 17
+if (num87 < 0) {
+	console.log('if')
+} else if (num87 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num88 = -21
+if (num88 < 0) {
+	console.log('if')
+} else if (num88 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
+
+let num89 = 555
+if (num89 < 0) {
+	console.log('if')
+} else if (num89 > 0) {
+	console.log('else if')
+} else {
+	console.log('else')
+}
 
 // Task 5 - Function Muscle Memory
 // 1 -
