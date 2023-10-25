@@ -353,6 +353,60 @@ function sayHello(name) {
 }
 console.log(sayHello('my dear friend'))
 
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Jimmy'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Tyler'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Taylor'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Tommy'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Tania'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Timmy'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Tracy'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Tulip'))
+
+function sayHello(name) {
+	let msg = 'Hello, ' + name + '. How are you?'
+	return msg
+}
+console.log(sayHello('Thomas'))
+
 // 2 -
 function checkNumber(num) {
 	if (num > 0) {
@@ -365,6 +419,105 @@ function checkNumber(num) {
 }
 console.log(checkNumber(-13))
 
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(2))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(65))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(85))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(100))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(788))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(23))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(0))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(-1))
+
+function checkNumber(num) {
+	if (num > 0) {
+		return 'positive'
+	} else if (num < 0) {
+		return 'negative'
+	} else {
+		return 'zero'
+	}
+}
+console.log(checkNumber(-12))
+
 // 3 -
 function fizzBuzz1(max) {
     for (let i = 0; i < max; i += 1) {
@@ -376,7 +529,97 @@ function fizzBuzz1(max) {
 		}
 	}
 }
-console.log(fizzBuzz1(2))
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
+function fizzBuzz1(max) {
+	for (let i = 0; i < max; i += 1) {
+		if (i % 3 === 0 && i % 5 !== 0) {
+			console.log(i)
+		} else if (i % 5 === 0 && i % 3 !== 0) {
+			console.log(i)
+		}
+	}
+}
+
 
 // 4 -
 function evenCaps(sentence) {
@@ -394,5 +637,149 @@ function evenCaps(sentence) {
 	}
 	return newSentence
 }
-console.log(evenCaps('Hey brother!'))
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
+function evenCaps(sentence) {
+	let newSentence = ''
+
+	for (let i = 0; i < sentence.length; i++) {
+		let char = sentence[i]
+
+		if (i % 2 === 0) {
+			let capitalChar = char.toUpperCase()
+			newSentence += capitalChar
+		} else {
+			newSentence += char
+		}
+	}
+	return newSentence
+}
+
 
